@@ -35,7 +35,7 @@ function Header() {
             <img
               src="/images/header-image.svg"
               className="object-contain object-top w-full h-64 max-w-xl rounded-3xl lg:h-auto lg:max-w-screen-md"
-              alt=""
+              alt="Laptop Image"
             />
           </div>
         </div>

@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.active {
+  background-color: #fff;
+  color: #8c60f6;
+}
+
+.active:hover {
+  background-color: #fff !important;
+}

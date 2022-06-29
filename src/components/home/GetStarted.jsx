@@ -43,7 +43,7 @@ function GetStarted() {
             <img
               src="/images/frontend-image.jpg"
               className="max-w-full"
-              alt=""
+              alt="Frontend Icon"
             />
           </a>
           <a
@@ -53,7 +53,7 @@ function GetStarted() {
             <img
               src="/images/backend-image.jpg"
               className="max-w-full"
-              alt=""
+              alt="Backend Icon"
             />
           </a>
         </div>

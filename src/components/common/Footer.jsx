@@ -10,7 +10,11 @@ function Footer() {
           href="#"
           className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start"
         >
-          <img src="/images/tab-icon.png" className="w-10 h-10" alt="" />
+          <img
+            src="/images/tab-icon.png"
+            className="w-10 h-10"
+            alt="Tab Icon Image"
+          />
           <span className="ml-2 text-xl">Web Guider</span>
         </a>
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0">

@@ -30,7 +30,11 @@ function NavBar() {
               className="inline-flex items-center text-lg font-semibold gap-x-2"
               href="#"
             >
-              <img src="/images/logo.png" className="w-10 h-10" alt="" />
+              <img
+                src="/images/logo.png"
+                className="w-10 h-10"
+                alt="Website Logo"
+              />
               <span className="w-64 text-slate-200">Web Guider</span>
             </a>
             <div className="sm:hidden">
