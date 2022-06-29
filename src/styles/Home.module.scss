@@ -1,0 +1,20 @@
+.home {
+  .header {
+    background-image: linear-gradient(
+      180deg,
+      #70a5ef9c 0%,
+      #d7a9dea0 50%,
+      #f7e8ac9d 70%,
+      #fff 100%
+    );
+  }
+
+  .heading {
+    &:hover {
+      .hash {
+        transition: 0.5s;
+        padding-right: 95%;
+      }
+    }
+  }
+}
