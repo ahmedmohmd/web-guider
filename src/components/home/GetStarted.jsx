@@ -14,7 +14,7 @@ function GetStarted() {
             <div className="relative flex items-center justify-center">
               <span
                 className={
-                  "text-md sm:text-lg z-10 absolute -top-2 px-5 py-5 sm:px-6 sm:py-6 bg-cyan-300/30 text-start -left-3 sm:-top-3 rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl " +
+                  "text-md sm:text-lg z-10 absolute -top-2 px-5 py-5  sm:py-6 bg-cyan-300/30 text-start -left-3 sm:-top-3 rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl " +
                   styled.hash
                 }
               ></span>
@@ -29,7 +29,7 @@ function GetStarted() {
               Frondend
             </span>
             or
-            <span className="mx-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+            <span className="mx-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-sm font-medium bg-violet-100 text-violet-800">
               Backend
             </span>
             web Developer.
@@ -45,7 +45,7 @@ function GetStarted() {
           >
             <span
               className={
-                "text-md whitespace-nowrap sm:text-lg z-10 absolute px-8 py-6 sm:px-6 font-bold text-slate-500 sm:py-3 bg-[#ea8763]/50 text-start left-0 top-0 rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl " +
+                "text-sm whitespace-nowrap sm:text-lg z-10 absolute px-4 py-2 sm:px-6 sm:py-3  font-bold text-white bg-[#ea8763]/50 text-start left-0 top-0 rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl " +
                 styled.hash
               }
             >
@@ -67,7 +67,7 @@ function GetStarted() {
           >
             <span
               className={
-                "text-md whitespace-nowrap sm:text-lg z-10 absolute px-8 py-6 sm:px-6 font-bold text-slate-500 sm:py-3 bg-[#ea8763]/50 text-start left-0 top-0 rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl " +
+                "text-sm whitespace-nowrap sm:text-lg z-10 absolute px-4 py-2 sm:px-6 sm:py-3  font-bold text-white bg-[#8c60f6]/50 text-start left-0 top-0 rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl " +
                 styled.hash
               }
             >
