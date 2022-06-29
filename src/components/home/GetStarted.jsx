@@ -18,7 +18,7 @@ function GetStarted() {
                   styled.hash
                 }
               ></span>
-              <span className="z-20 mb-3 text-3xl font-extrabold lg:text-5xl text-slate-600">
+              <span className="z-20 mb-3 text-2xl font-bold md:text-3xl lg:font-extrabold text-slate-600">
                 Choose Track
               </span>
             </div>
