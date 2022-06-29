@@ -13,7 +13,7 @@ function Header() {
                     Free!
                   </span>
                 </div>
-                <h2 className="max-w-lg mb-6 font-sans text-3xl font-extrabold tracking-tight text-slate-700 sm:text-5xl xl:text-6xl sm:leading-none">
+                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-slate-700 sm:text-5xl xl:text-7xl sm:leading-none">
                   Speed Your Development Process Now.
                 </h2>
                 <p className="text-base text-slate-500 md:text-lg">
