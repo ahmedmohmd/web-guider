@@ -38,18 +38,41 @@ function GetStarted() {
         <div className="flex items-center justify-center gap-5 px-4 lg:gap-20">
           <a
             href="#"
-            className="w-1/2 overflow-hidden duration-500 shadow-md sm:w-1/5 hover:shadow-xl bg-slate-100 rounded-3xl grayscale hover:grayscale-0"
+            className={
+              "relative w-1/2 overflow-hidden duration-500 shadow-md sm:w-1/5 hover:shadow-xl bg-slate-100 rounded-3xl grayscale hover:grayscale-0 " +
+              styled.heading
+            }
           >
+            <span
+              className={
+                "text-md whitespace-nowrap sm:text-lg z-10 absolute px-8 py-6 sm:px-6 font-bold text-slate-500 sm:py-3 bg-[#ea8763]/50 text-start left-0 top-0 rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl " +
+                styled.hash
+              }
+            >
+              # Frontend
+            </span>
             <img
               src="/images/frontend-image.jpg"
               className="max-w-full"
               alt="Frontend Icon"
             />
           </a>
+
           <a
             href="#"
-            className="w-1/2 overflow-hidden duration-500 shadow-md sm:w-1/5 hover:shadow-xl bg-slate-100 rounded-3xl grayscale hover:grayscale-0"
+            className={
+              "relative w-1/2 overflow-hidden duration-500 shadow-md sm:w-1/5 hover:shadow-xl bg-slate-100 rounded-3xl grayscale hover:grayscale-0 " +
+              styled.heading
+            }
           >
+            <span
+              className={
+                "text-md whitespace-nowrap sm:text-lg z-10 absolute px-8 py-6 sm:px-6 font-bold text-slate-500 sm:py-3 bg-[#ea8763]/50 text-start left-0 top-0 rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl " +
+                styled.hash
+              }
+            >
+              # Backend
+            </span>
             <img
               src="/images/backend-image.jpg"
               className="max-w-full"
