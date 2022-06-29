@@ -1,5 +1,4 @@
 //* Imports
-import { useState } from "react";
 import styled from "../../styles/Home.module.scss";
 import GetStarted from "./GetStarted";
 import Header from "./Header";

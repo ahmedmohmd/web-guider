@@ -10,10 +10,15 @@
   }
 
   .heading {
+    .hash {
+      color: #475569;
+    }
+
     &:hover {
       .hash {
         transition: 0.5s;
         padding-right: 95%;
+        color: #fff;
       }
     }
   }
