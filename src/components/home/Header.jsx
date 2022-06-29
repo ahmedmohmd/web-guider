@@ -9,14 +9,14 @@ function Header() {
             <div className="h-full mb-16 lg:max-w-lg lg:mb-0">
               <div className="max-w-xl mb-6">
                 <div>
-                  <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                    Brand new
-                  </p>
+                  <span className="inline-flex items-center mb-1 gap-1.5 py-1.5 px-3 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+                    Free!
+                  </span>
                 </div>
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-slate-700 sm:text-5xl xl:text-7xl sm:leading-none">
                   Speed Your Development Process Now.
                 </h2>
-                <p className="text-base text-gray-700 md:text-lg">
+                <p className="text-base text-slate-500 md:text-lg">
                   Website Guider is Your Main Helper to lead you to find Your
                   Best Suitable Tools to use it in Your Projects.
                 </p>
@@ -24,7 +24,7 @@ function Header() {
               <div className="flex items-center justify-center lg:justify-start">
                 <a
                   href="#get-started"
-                  class="text-white bg-gradient-to-r from-purple-500/75 to-pink-500/75 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200  font-medium rounded-xl lg:rounded-2xl text-sm lg:text-md lg:px-7 lg:py-4 px-5 py-3 text-center duration-500"
+                  className="px-5 py-3 text-sm font-medium text-center text-white duration-500 bg-gradient-to-r from-purple-500/75 to-pink-500/75 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 rounded-xl lg:rounded-2xl lg:text-md lg:px-7 lg:py-4"
                 >
                   Quick Start
                 </a>

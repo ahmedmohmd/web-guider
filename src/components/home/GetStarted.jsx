@@ -3,7 +3,7 @@ import styled from "../../styles/Home.module.scss";
 //* Get Started
 function GetStarted() {
   return (
-    <div className={"pb-16 "} id="get-started">
+    <div className={"pb-32 pt-16 lg:pt-0"} id="get-started">
       <div className="container mx-auto">
         <div className="pb-8 text-center">
           <div
@@ -25,33 +25,33 @@ function GetStarted() {
           </div>
           <p className="text-slate-500">
             Choose Your Track if You are{" "}
-            <span class="mx-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
+            <span className="mx-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
               Frondend
             </span>
             or
-            <span class="mx-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
+            <span className="mx-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-sm font-medium bg-gray-100 text-gray-800">
               Backend
             </span>
             web Developer.
           </p>
         </div>
-        <div className="flex items-center justify-center gap-5 p-4 lg:gap-20">
+        <div className="flex items-center justify-center gap-5 px-4 lg:gap-20">
           <a
             href="#"
-            className="w-1/2 p-5 duration-500 shadow-md sm:w-1/5 hover:shadow-xl bg-slate-100 rounded-3xl"
+            className="w-1/2 overflow-hidden duration-500 shadow-md sm:w-1/5 hover:shadow-xl bg-slate-100 rounded-3xl grayscale hover:grayscale-0"
           >
             <img
-              src="/images/frontend-image.png"
+              src="/images/frontend-image.jpg"
               className="max-w-full"
               alt=""
             />
           </a>
           <a
             href="#"
-            className="w-1/2 p-5 duration-500 shadow-md sm:w-1/5 hover:shadow-xl bg-slate-100 rounded-3xl"
+            className="w-1/2 overflow-hidden duration-500 shadow-md sm:w-1/5 hover:shadow-xl bg-slate-100 rounded-3xl grayscale hover:grayscale-0"
           >
             <img
-              src="/images/backend-image.png"
+              src="/images/backend-image.jpg"
               className="max-w-full"
               alt=""
             />
