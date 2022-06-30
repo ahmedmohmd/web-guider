@@ -21,7 +21,7 @@ function NavBar() {
         (scrollValue <= 0 ? "bg-violet-500" : "bg-violet-500/90")
       }
     >
-      <header className="container z-50 flex flex-wrap w-full py-4 mx-auto text-sm sm:justify-start sm:flex-nowrap">
+      <header className="container z-50 flex flex-wrap w-full py-4 mx-auto text-sm md:py-2 sm:justify-start sm:flex-nowrap">
         <nav
           className="w-full px-4 mx-auto sm:flex sm:items-center sm:justify-between"
           aria-label="Global"
