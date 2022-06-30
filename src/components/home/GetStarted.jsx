@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "../../styles/Home.module.scss";
 
 //* Get Started
@@ -36,8 +37,8 @@ function GetStarted() {
           </p>
         </div>
         <div className="flex items-center justify-center gap-5 px-4 lg:gap-20">
-          <a
-            href="#"
+          <Link
+            to="/frontend/vscode"
             className={
               "relative w-1/2 overflow-hidden duration-500 shadow-md sm:w-1/5 hover:shadow-xl bg-slate-100 rounded-3xl grayscale hover:grayscale-0 " +
               styled.heading
@@ -56,10 +57,10 @@ function GetStarted() {
               className="max-w-full"
               alt="Frontend Icon"
             />
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to="/backend/vscode"
             className={
               "relative w-1/2 overflow-hidden duration-500 shadow-md sm:w-1/5 hover:shadow-xl bg-slate-100 rounded-3xl grayscale hover:grayscale-0 " +
               styled.heading
@@ -78,7 +79,7 @@ function GetStarted() {
               className="max-w-full"
               alt="Backend Icon"
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

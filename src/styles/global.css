@@ -10,3 +10,22 @@ html {
 .active:hover {
   background-color: #fff !important;
 }
+
+.sidebar li a {
+  display: inline-flex;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 0.875em;
+  transition: all 0.3s;
+  color: rgb(67, 83, 106);
+}
+
+.sidebar li a:hover {
+  background-color: #f3e8ff !important;
+  color: #8c60f6;
+}
+
+.sidebar li a.active {
+  background-color: #f3e8ff;
+  color: #8c60f6;
+}

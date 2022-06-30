@@ -1,7 +1,8 @@
 //* Imports
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styled from "../../styles/NavBar.module.scss";
+import { BsGithub } from "react-icons/bs";
 
 function NavBar() {
   const [scrollValue, setScrollValue] = useState(0);
@@ -16,7 +17,7 @@ function NavBar() {
     <div
       className={
         styled.navbar +
-        " sticky top-0 z-10 duration-100 " +
+        " sticky top-0 z-20 duration-100 shadow-md " +
         (scrollValue <= 0 ? "bg-violet-500" : "bg-violet-500/90")
       }
     >
@@ -26,9 +27,9 @@ function NavBar() {
           aria-label="Global"
         >
           <div className="flex items-center justify-between">
-            <a
+            <Link
               className="inline-flex items-center text-lg font-semibold gap-x-2"
-              href="#"
+              to="/"
             >
               <img
                 src="/images/logo.png"
@@ -36,7 +37,7 @@ function NavBar() {
                 alt="Website Logo"
               />
               <span className="w-64 text-slate-200">Web Guider</span>
-            </a>
+            </Link>
             <div className="sm:hidden">
               <button
                 type="button"
@@ -89,6 +90,16 @@ function NavBar() {
               >
                 About
               </NavLink>
+
+              <a
+                href="https://github.com/ahmedmohmd/web-guider/tree/main"
+                target="_blank"
+                className="flex items-center justify-center "
+              >
+                <div className="p-3 rounded-full hover:bg-violet-400/50">
+                  <BsGithub className="text-3xl" />
+                </div>
+              </a>
             </div>
           </div>
         </nav>
