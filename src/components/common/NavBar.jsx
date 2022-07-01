@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import styled from "../../styles/NavBar.module.scss";
 import { BsGithub } from "react-icons/bs";
 
+//* NavBar JSX
 function NavBar() {
   const [scrollValue, setScrollValue] = useState(0);
 
@@ -42,7 +43,7 @@ function NavBar() {
               <button
                 type="button"
                 className={
-                  "hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md font-medium text-gray-700 shadow-sm align-middle hover:bg-violet-400/90 focus:outline-none transition-all text-sm " +
+                  "hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md font-medium align-middle hover:bg-violet-400/90 focus:outline-none transition-all text-sm " +
                   (scrollValue <= 0 ? "bg-violet-500" : "bg-violet-500/90")
                 }
                 data-hs-collapse="#navbar-image-and-text-1"
@@ -86,6 +87,18 @@ function NavBar() {
               </NavLink>
               <NavLink
                 className="p-3 duration-300 rounded-xl hover:bg-violet-400/80"
+                to={"/frontend/vscode"}
+              >
+                Frontend
+              </NavLink>
+              <NavLink
+                className="p-3 duration-300 rounded-xl hover:bg-violet-400/80"
+                to={"/backend/vscode"}
+              >
+                Backend
+              </NavLink>
+              <NavLink
+                className="p-3 duration-300 rounded-xl hover:bg-violet-400/80"
                 to={"/About"}
               >
                 About
@@ -94,7 +107,7 @@ function NavBar() {
               <a
                 href="https://github.com/ahmedmohmd/web-guider/tree/main"
                 target="_blank"
-                className="flex items-center justify-center pt-3 border-t-2 lg:pt-0 lg:pl-3 lg:border-l-2 lg:border-t-0 border-slate-200/50"
+                className="flex items-center justify-center pt-3 border-t-2 sm:pt-0 sm:pl-3 sm:border-l-2 sm:border-t-0 border-slate-200/50"
               >
                 <div className="p-3 rounded-full hover:bg-violet-400/50">
                   <BsGithub className="text-3xl" />

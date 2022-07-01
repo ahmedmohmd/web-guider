@@ -9,6 +9,11 @@ module.exports = {
         "linkedin-color": "#3077b5",
         "github-color": "#161b22",
       },
+
+      fontFamily: {
+        itim: "Itim",
+        mitr: "Mitr",
+      },
     },
   },
   plugins: [require("preline/plugin"), require("@tailwindcss/line-clamp")],

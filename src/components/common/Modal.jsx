@@ -1,7 +1,9 @@
+//* Imports
 import { useState } from "react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { shadesOfPurple } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
+//* Modal JSX
 function Modal({
   modalTitle,
   modalDescription,
@@ -19,14 +21,12 @@ function Modal({
       class="hs-modal hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto"
     >
       <div class="hs-modal-open:mt-7 hs-modal-open:opacity-100 hs-modal-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto min-h-[calc(100%-3.5rem)] flex items-center">
-        <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-          <div class="flex justify-between items-center py-3 px-4 border-b dark:border-gray-700">
-            <h3 class="text-2xl lg:text-3xl font-bold text-slate-600 dark:text-white">
-              {modalTitle}
-            </h3>
+        <div class="flex flex-col bg-white border shadow-sm rounded-xl">
+          <div class="flex justify-between items-center p-4 border-b-2 border-b-slate-200/50">
+            <h3 class="text-2xl font-bold text-slate-600">{modalTitle}</h3>
             <button
               type="button"
-              class="hs-dropdown-toggle inline-flex flex-shrink-0 justify-center items-center h-8 w-8 rounded-md text-red-500 hover:bg-red-100  focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition-all text-sm dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
+              class="hs-dropdown-toggle inline-flex flex-shrink-0 justify-center items-center h-8 w-8 rounded-md text-red-500 hover:bg-red-100  focus:outline-none focus:ring-2 focus:ring-red-400/70 focus:ring-offset-2 focus:ring-offset-white transition-all text-sm "
               data-hs-modal={`#${uniqueId}`}
             >
               <span class="sr-only">Close</span>
@@ -46,10 +46,17 @@ function Modal({
             </button>
           </div>
           <div class="p-4 overflow-y-auto">
+            <h3 className="mb-1 text-lg font-semibold text-slate-600">
+              Description:
+            </h3>
+
             <p class="text-slate-500">{modalDescription}</p>
           </div>
           {npmInstallCommand ? (
             <div className="relative p-4">
+              <h3 className="pl-1 mb-1 text-lg font-semibold text-slate-600">
+                Installation:
+              </h3>
               <div
                 onClick={() => {
                   navigator.clipboard.writeText(npmInstallCommand);
@@ -57,8 +64,7 @@ function Modal({
                   setTimeout(() => setCopied(false), 2000);
                 }}
                 className={
-                  "hover:cursor-pointer absolute z-[100] p-[2px] rounded-md top-6 right-6 " +
-                  (copied ? "bg-violet-100" : "bg-white")
+                  "hover:cursor-pointer absolute z-[100] p-[2px] rounded-md top-14 right-6 bg-white/80"
                 }
               >
                 {copied ? (
@@ -67,7 +73,7 @@ function Modal({
                     className="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke="#7058ba"
+                    stroke="#475163"
                     strokeWidth={2}
                   >
                     <path
@@ -102,7 +108,7 @@ function Modal({
               </SyntaxHighlighter>
             </div>
           ) : null}
-          <div class="flex justify-end items-center gap-x-2 py-3 px-4 border-t dark:border-gray-700">
+          <div class="flex justify-end items-center gap-x-2 py-3 px-4 border-t-2 border-t-slate-200/50">
             {vscodeUrl ? (
               <a
                 href={vscodeUrl}
@@ -120,13 +126,15 @@ function Modal({
                 NPM URL
               </a>
             ) : null}
-            <a
-              class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-orange-200 font-semibold text-orange-500 hover:text-white hover:bg-orange-500 hover:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200 focus:ring-offset-2 transition-all text-sm"
-              href={offecialUrl}
-              target="_blank"
-            >
-              Offecial Url
-            </a>
+            {offecialUrl ? (
+              <a
+                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-violet-200 font-semibold text-violet-500 hover:text-white hover:bg-violet-500 hover:border-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-200 focus:ring-offset-2 transition-all text-sm"
+                href={offecialUrl}
+                target="_blank"
+              >
+                Offecial Url
+              </a>
+            ) : null}
           </div>
         </div>
       </div>

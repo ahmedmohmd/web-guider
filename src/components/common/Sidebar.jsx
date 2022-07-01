@@ -1,12 +1,15 @@
+//* Imports
 import { NavLink } from "react-router-dom";
+import styled from "../../styles/Sidebar.module.scss";
 
+//* Sidebar JSX
 function Sidebar({ field }) {
   return (
     <div className="min-h-screen border-r border-gray-200">
       <div className="lg:sticky lg:top-12">
         <button
           type="button"
-          class="animate-pulse fixed lg:hidden top-1/2 left-2 text-gray-500 hover:text-gray-600"
+          class="z-[40] animate-pulse fixed lg:hidden top-1/2 left-2 text-gray-500 hover:text-gray-600"
           data-hs-sidebar="#docs-sidebar"
           aria-controls="docs-sidebar"
           aria-label="Toggle navigation"
@@ -33,10 +36,13 @@ function Sidebar({ field }) {
           class="h-full fixed lg:static z-[60] hs-sidebar hs-sidebar-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden lg:block top-0 left-0  lg:z-[10] w-64 bg-white  pt-7 pb-10 overflow-y-auto scrollbar-y lg:translate-x-0 lg:right-auto lg:bottom-0 "
         >
           <nav class="p-6 w-full flex flex-col flex-wrap">
-            <ul class="sidebar space-y-1.5 flex flex-col gap-2 justify-center items-start">
+            <ul class="font-mitr  sidebar space-y-1.5 flex flex-col gap-2 justify-center items-start">
               <li>
                 <NavLink
-                  class="flex items-center gap-x-3 bg-gray-100 text-sm text-slate-700 rounded-md hover:bg-gray-100 "
+                  class={
+                    "vscode-link flex items-center gap-x-3 bg-gray-100 text-sm text-slate-700 rounded-md hover:bg-gray-100 " +
+                    styled.vscodeLink
+                  }
                   to={`/${field}/vscode`}
                 >
                   <div className="w-5 h-5">
@@ -47,7 +53,18 @@ function Sidebar({ field }) {
               </li>
               <li>
                 <NavLink
-                  class="flex items-center gap-x-3 text-sm text-slate-700 rounded-md hover:bg-gray-100  dark:text-slate-400 "
+                  class="packages-link flex items-center gap-x-3 text-sm text-slate-700 rounded-md hover:bg-gray-100"
+                  to={`/${field}/packages`}
+                >
+                  <div className="w-5 h-5">
+                    <img src="/images/icons/package-icon.svg" alt="" />
+                  </div>
+                  <span class="ml-3">{"Packages & Libs"}</span>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  class="websites-link flex items-center gap-x-3 text-sm text-slate-700 rounded-md hover:bg-gray-100"
                   to={`/${field}/websites`}
                 >
                   <div className="w-5 h-5">
@@ -55,7 +72,7 @@ function Sidebar({ field }) {
                       xmlns="http://www.w3.org/2000/svg"
                       className="w-6 h-6"
                       viewBox="0 0 20 20"
-                      fill="#8c60f6"
+                      fill="#f1916d"
                     >
                       <path
                         fillRule="evenodd"
@@ -69,18 +86,7 @@ function Sidebar({ field }) {
               </li>
               <li>
                 <NavLink
-                  class="flex items-center gap-x-3 text-sm text-slate-700 rounded-md hover:bg-gray-100  dark:text-slate-400 "
-                  to={`/${field}/packages`}
-                >
-                  <div className="w-5 h-5">
-                    <img src="/images/icons/package-icon.svg" alt="" />
-                  </div>
-                  <span class="ml-3">{"Packages & Libs"}</span>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  class="flex items-center gap-x-3 text-sm text-slate-700 rounded-md hover:bg-gray-100  dark:text-slate-400 "
+                  class="programms-link flex items-center gap-x-3 text-sm text-slate-700 rounded-md hover:bg-gray-100"
                   to={`/${field}/programms`}
                 >
                   <div className="w-5 h-5">
