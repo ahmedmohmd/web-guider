@@ -21,12 +21,12 @@ function Modal({
       <div class="hs-modal-open:mt-7 hs-modal-open:opacity-100 hs-modal-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto min-h-[calc(100%-3.5rem)] flex items-center">
         <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
           <div class="flex justify-between items-center py-3 px-4 border-b dark:border-gray-700">
-            <h3 class="font-bold text-gray-800 dark:text-white">
+            <h3 class="text-2xl lg:text-3xl font-bold text-slate-600 dark:text-white">
               {modalTitle}
             </h3>
             <button
               type="button"
-              class="hs-dropdown-toggle inline-flex flex-shrink-0 justify-center items-center h-8 w-8 rounded-md text-gray-500 hover:text-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition-all text-sm dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
+              class="hs-dropdown-toggle inline-flex flex-shrink-0 justify-center items-center h-8 w-8 rounded-md text-red-500 hover:bg-red-100  focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition-all text-sm dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800"
               data-hs-modal={`#${uniqueId}`}
             >
               <span class="sr-only">Close</span>
@@ -46,7 +46,7 @@ function Modal({
             </button>
           </div>
           <div class="p-4 overflow-y-auto">
-            <p class="text-gray-800 dark:text-gray-400">{modalDescription}</p>
+            <p class="text-slate-500">{modalDescription}</p>
           </div>
           {npmInstallCommand ? (
             <div className="relative p-4">
@@ -54,12 +54,10 @@ function Modal({
                 onClick={() => {
                   navigator.clipboard.writeText(npmInstallCommand);
                   setCopied(true);
-                }}
-                onBlur={() => {
-                  setCopied(false);
+                  setTimeout(() => setCopied(false), 2000);
                 }}
                 className={
-                  "hover:cursor-pointer absolute p-[2px] rounded-md top-6 right-6 " +
+                  "hover:cursor-pointer absolute z-[100] p-[2px] rounded-md top-6 right-6 " +
                   (copied ? "bg-violet-100" : "bg-white")
                 }
               >
@@ -106,21 +104,21 @@ function Modal({
           ) : null}
           <div class="flex justify-end items-center gap-x-2 py-3 px-4 border-t dark:border-gray-700">
             {vscodeUrl ? (
-              <button
-                type="button"
-                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-gray-200 font-semibold text-gray-500 hover:text-white hover:bg-gray-500 hover:border-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2 transition-all text-sm"
+              <a
+                href={vscodeUrl}
+                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-blue-200 font-semibold text-blue-500 hover:text-white hover:bg-blue-500 hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-offset-2 transition-all text-sm"
                 data-hs-modal={`#${uniqueId}`}
               >
-                Close
-              </button>
+                VS Code URL
+              </a>
             ) : npmUrl ? (
-              <button
-                type="button"
-                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-gray-200 font-semibold text-gray-500 hover:text-white hover:bg-gray-500 hover:border-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-200 focus:ring-offset-2 transition-all text-sm"
+              <a
+                href={npmUrl}
+                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-red-200 font-semibold text-red-500 hover:text-white hover:bg-red-500 hover:border-red-500 focus:outline-none focus:ring-2 focus:ring-red-200 focus:ring-offset-2 transition-all text-sm"
                 data-hs-modal={`#${uniqueId}`}
               >
-                Close
-              </button>
+                NPM URL
+              </a>
             ) : null}
             <a
               class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-orange-200 font-semibold text-orange-500 hover:text-white hover:bg-orange-500 hover:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200 focus:ring-offset-2 transition-all text-sm"
