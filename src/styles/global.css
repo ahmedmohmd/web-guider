@@ -11,13 +11,18 @@ html {
   background-color: #fff !important;
 }
 
+.sidebar li {
+  width: 100%;
+}
+
 .sidebar li a {
   display: inline-flex;
   padding: 10px 15px;
-  border-radius: 50px;
+  border-radius: 10px;
   font-size: 0.875em;
   transition: all 0.3s;
   color: rgb(67, 83, 106);
+  width: 100% !important;
 }
 
 .sidebar li a:hover {

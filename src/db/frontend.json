@@ -1,0 +1,77 @@
+{
+  "packages": [
+    {
+      "id": 0,
+      "modalId": "joi",
+      "name": "joi",
+      "description": "Joi is and npm package that used to handle validation process for your forms, it contains alot of awesome methods and properties that let you to validate your forms by easy way.",
+      "npmUrl": "https://www.npmjs.com/package/joi",
+      "offecialUrl": "https://joi.dev/api/?v=17.6.0",
+      "installCommand": "npm i joi"
+    },
+    {
+      "id": 1,
+      "modalId": "swr",
+      "name": "SWR",
+      "description": "SWR is an React hook that give you all you need to fetch data from APIs Endpoints and handle it in you Frontend Project, It isnot just as normal fetch library like axios of fetch, it give you alot of features like pagination, mutation and more",
+      "npmUrl": "https://www.npmjs.com/package/swr",
+      "offecialUrl": "https://swr.vercel.app/",
+      "installCommand": "npm i swr"
+    },
+
+    {
+      "id": 2,
+      "modalId": "joi",
+      "name": "joi",
+      "description": "Joi is and npm package that used to handle validation process for your forms, it contains alot of awesome methods and properties that let you to validate your forms by easy way.",
+      "npmUrl": "https://www.npmjs.com/package/joi",
+      "offecialUrl": "https://joi.dev/api/?v=17.6.0",
+      "installCommand": "npm i joi"
+    },
+    {
+      "id": 3,
+      "name": "joi",
+      "description": "Joi is and npm package that used to handle validation process for your forms, it contains alot of awesome methods and properties that let you to validate your forms by easy way.",
+      "npmUrl": "https://www.npmjs.com/package/joi",
+      "offecialUrl": "https://joi.dev/api/?v=17.6.0",
+      "installCommand": "npm i joi"
+    }
+  ],
+
+  "vscode": [
+    {
+      "id": 0,
+      "modalId": "prettier",
+      "name": "Prettier",
+      "description": "Prettier is and Code Formatter that help you to organize your code.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+      "offecialUrl": "https://prettier.io/"
+    },
+    {
+      "id": 1,
+      "modalId": "prettier",
+      "name": "Prettier",
+      "description": "Prettier is and Code Formatter that help you to organize your code.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+      "offecialUrl": "https://prettier.io/"
+    },
+    {
+      "id": 2,
+      "modalId": "prettier",
+      "name": "Prettier",
+      "description": "Prettier is and Code Formatter that help you to organize your code.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+      "offecialUrl": "https://prettier.io/"
+    }
+  ],
+  "websites": [
+    {
+      "id": 0,
+      "modalId": "fancy-border-radius-generator",
+      "name": "Fancy Border Rdaius Generator",
+      "description": "Awesome website to Create any CSS Border Radius shape shape by Easy way.",
+      "websiteUrl": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+    }
+  ],
+  "programms": []
+}

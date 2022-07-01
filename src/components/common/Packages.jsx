@@ -1,5 +1,5 @@
 function Packages({ children }) {
-  return <div>{children}</div>;
+  return <div className="container mx-auto">{children}</div>;
 }
 
 export default Packages;

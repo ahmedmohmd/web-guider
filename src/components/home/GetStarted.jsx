@@ -4,22 +4,22 @@ import styled from "../../styles/Home.module.scss";
 //* Get Started
 function GetStarted() {
   return (
-    <div className={"pb-32 pt-16 lg:pt-0"} id="get-started">
+    <div className={"pb-32 pt-16 lg:pt-0 bg-white"} id="get-started">
       <div className="container mx-auto">
         <div className="pb-8 text-center">
-          <div
-            className={
-              "relative flex items-center justify-center " + styled.heading
-            }
-          >
-            <div className="relative flex items-center justify-center">
+          <div className="relative flex items-center justify-center">
+            <div
+              className={
+                "relative flex items-center justify-center " + styled.heading
+              }
+            >
               <span
                 className={
                   "text-md sm:text-lg z-10 absolute -top-2 px-5 py-5  sm:py-6 bg-cyan-300/30 text-start -left-3 sm:-top-3 rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl " +
                   styled.hash
                 }
               ></span>
-              <span className="z-20 mb-3 text-2xl font-bold md:text-3xl lg:font-extrabold text-slate-600">
+              <span className="z-20 mb-3 text-2xl font-bold md:text-3xl lg:text-4xl xl:text-5xl lg:font-extrabold text-slate-600">
                 Choose Track
               </span>
             </div>

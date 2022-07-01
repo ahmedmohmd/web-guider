@@ -12,11 +12,11 @@
   .heading {
     .hash {
       color: #475569;
+      transition: all 0.7s;
     }
 
     &:hover {
       .hash {
-        transition: 0.5s;
         padding-right: 95%;
         color: #fff;
       }

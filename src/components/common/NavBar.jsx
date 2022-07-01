@@ -94,7 +94,7 @@ function NavBar() {
               <a
                 href="https://github.com/ahmedmohmd/web-guider/tree/main"
                 target="_blank"
-                className="flex items-center justify-center "
+                className="flex items-center justify-center pt-3 border-t-2 lg:pt-0 lg:pl-3 lg:border-l-2 lg:border-t-0 border-slate-200/50"
               >
                 <div className="p-3 rounded-full hover:bg-violet-400/50">
                   <BsGithub className="text-3xl" />

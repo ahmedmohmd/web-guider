@@ -1,5 +1,5 @@
 function Programms({ children }) {
-  return <div>{children}</div>;
+  return <div className="grow">{children}</div>;
 }
 
 export default Programms;
