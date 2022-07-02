@@ -69,11 +69,11 @@
       "modalId": "tailwind-css-intellisense",
       "name": "Tailwind CSS IntelliSense",
       "description": "Nice Extension that help you if you are use Tailwind CSS Developer, It help you by suggest tailwind properties during your Work.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss"
     },
     {
       "id": 10,
-      "modalId": "urbo-console-log",
+      "modalId": "turbo-console-log",
       "name": "Turbo Console Log",
       "description": "This Extension help you when you want to log some data in Console, It log data in console with some extra information like line, variable's name and more.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log"
@@ -97,7 +97,7 @@
       "modalId": "rainbow-tags",
       "name": "Rainbow Tags",
       "description": "Nice VS Code Extension that colorize HTML Tags, which help you to know start and end of the Tag.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=moyu.snapcode"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=voldemortensen.rainbow-tags"
     },
     {
       "id": 14,
@@ -112,6 +112,13 @@
       "name": "Headwind",
       "description": "The Big Problem in Tailwind CSS is that you may write a lot of classes and that make you to forget to oganize these classes, Headwind came to solve this problem, It ReArrange all Tailwind classes when you save the file.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=heybourn.headwind"
+    },
+    {
+      "id": 16,
+      "modalId": "git-lens",
+      "name": "Git Lens",
+      "description": "Nice Extension that give you ability to handle your repos graphically and by easy way.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
     }
   ],
   "packages": [
@@ -133,7 +140,6 @@
       "offecialUrl": "https://swr.vercel.app/",
       "installCommand": "npm i swr"
     },
-
     {
       "id": 2,
       "modalId": "json-server",
@@ -177,6 +183,48 @@
       "npmUrl": "https://www.npmjs.com/package/formik",
       "offecialUrl": "https://formik.org/",
       "installCommand": "npm install formik --save"
+    },
+    {
+      "id": 7,
+      "modalId": "react-hook-form",
+      "name": "React Hook Form",
+      "description": "React Hook Form is like Formik that used to handle Forms with great preformance and it suitable for large scale forms.",
+      "npmUrl": "https://www.npmjs.com/package/react-hook-form",
+      "offecialUrl": "https://react-hook-form.com/advanced-usage/",
+      "installCommand": "npm i react-hook-form"
+    },
+    {
+      "id": 8,
+      "modalId": "chartjs",
+      "name": "Chart JS",
+      "description": "Chart JS is an npm package that used to insert animated and interactive informations components.",
+      "npmUrl": "https://www.npmjs.com/package/chart.js?activeTab=readme",
+      "offecialUrl": "https://www.chartjs.org/",
+      "installCommand": "npm i chart.js"
+    },
+    {
+      "id": 9,
+      "modalId": "react-qr-reader",
+      "name": "React QR Reader",
+      "description": "Nice Package that used to read QR Code, It's usage is very simple but have a great benefit.",
+      "npmUrl": "https://www.npmjs.com/package/react-qr-reader",
+      "installCommand": "npm i react-qr-reader"
+    },
+    {
+      "id": 10,
+      "modalId": "qrcode.react",
+      "name": "Qrcode React",
+      "description": "Nice Package that used to Create QR Code, It's usage is very simple but have a great benefit.",
+      "npmUrl": "https://www.npmjs.com/package/qrcode.react",
+      "installCommand": "npm i qrcode.react"
+    },
+    {
+      "id": 11,
+      "modalId": "react-syntax-highlighter",
+      "name": "React Syntax Highlighter",
+      "description": "One of my favourite package that use in this project it give you ability to add code blocks in frontend applications, It support a lot of languages and tens of great themes that make your project looks good.",
+      "npmUrl": "https://www.npmjs.com/package/react-syntax-highlighter",
+      "installCommand": "npm i react-syntax-highlighter"
     }
   ],
   "websites": [

@@ -58,6 +58,12 @@ html {
   color: #fff;
 }
 
+.sidebar li:nth-child(4) a.active svg,
+.sidebar li:nth-child(2) a.active svg {
+  fill: none;
+  stroke: #fff;
+}
+
 @media (max-width: 1024px) {
   .sidebar li a {
     color: #fff;
@@ -76,7 +82,8 @@ html {
     fill: #9564f7;
   }
 
-  .sidebar li:nth-child(4) a.active svg {
+  .sidebar li:nth-child(4) a.active svg,
+  .sidebar li:nth-child(2) a.active svg {
     fill: none;
     stroke: #9564f7;
   }

@@ -6,7 +6,7 @@ import styled from "../../styles/Sidebar.module.scss";
 //* Sidebar JSX
 function Sidebar({ field }) {
   return (
-    <div className="border-none lg:border-r-2 border-violet-200/50 bg-violet-500/90 lg:bg-white">
+    <div className="border-r-none lg:border-r-2 lg:border-r-violet-200/50 bg-violet-500/90 lg:bg-white">
       <div className="lg:sticky lg:top-14">
         <button
           type="button"
@@ -34,7 +34,6 @@ function Sidebar({ field }) {
 
         <div
           id="docs-sidebar"
-          data-hs-sidebar-scroll={true}
           class="pt-12 bg-violet-500/90 lg:bg-white  h-full fixed lg:static z-[60] hs-sidebar hs-sidebar-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden lg:block top-0 left-0  lg:z-[10] w-64 bg-white  lg:pt-7 pb-10 overflow-y-auto scrollbar-y lg:translate-x-0 lg:right-auto lg:bottom-0 "
         >
           <button
@@ -89,10 +88,11 @@ function Sidebar({ field }) {
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 fill-white lg:fill-violte-500"
+                      className="w-6 h-6 "
                       viewBox="0 0 24 24"
                       stroke="currentColor"
                       strokeWidth={2}
+                      fill="none"
                     >
                       <path
                         strokeLinecap="round"
