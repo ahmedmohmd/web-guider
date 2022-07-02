@@ -20,7 +20,7 @@ function Card({
     <div>
       <div
         class={
-          "flex flex-col h-94 hover:-translate-y-1 duration-500 bg-gradient-to-tr transition-all  justify-center shadow-lg rounded-3xl p-4 md:p-5 " +
+          "flex flex-col h-94 hover:-translate-y-1 duration-500 bg-gradient-to-tr transition-all  justify-center shadow-lg rounded-3xl p-4 md:p-5 !pb-2 " +
           styled.card
         }
       >

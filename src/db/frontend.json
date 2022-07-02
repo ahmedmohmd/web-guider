@@ -98,6 +98,20 @@
       "name": "Rainbow Tags",
       "description": "Nice VS Code Extension that colorize HTML Tags, which help you to know start and end of the Tag.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=moyu.snapcode"
+    },
+    {
+      "id": 14,
+      "modalId": "ayu",
+      "name": "Ayu",
+      "description": "A nother Nice Theme for VS Code Editor that give you a Professional SHapeand Colors.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=teabyii.ayu"
+    },
+    {
+      "id": 15,
+      "modalId": "headwind",
+      "name": "Headwind",
+      "description": "The Big Problem in Tailwind CSS is that you may write a lot of classes and that make you to forget to oganize these classes, Headwind came to solve this problem, It ReArrange all Tailwind classes when you save the file.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=heybourn.headwind"
     }
   ],
   "packages": [

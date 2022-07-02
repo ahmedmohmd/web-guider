@@ -1,6 +1,6 @@
 //* Vscode
 function Vscode({ children }) {
-  return <div className="container relative mx-auto top-10">{children}</div>;
+  return <div className="container relative py-5 mx-auto">{children}</div>;
 }
 
 export default Vscode;

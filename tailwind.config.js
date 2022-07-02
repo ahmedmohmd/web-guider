@@ -14,6 +14,16 @@ module.exports = {
         itim: "Itim",
         mitr: "Mitr",
       },
+      keyframes: {
+        arrow: {
+          "0%": { transform: "translateX(-3px)" },
+          "100%": { transform: "translateX(7px)" },
+        },
+      },
+
+      animation: {
+        arrow: "arrow 1s ease-in-out infinite alternate",
+      },
     },
   },
   plugins: [require("preline/plugin"), require("@tailwindcss/line-clamp")],

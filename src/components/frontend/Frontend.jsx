@@ -6,10 +6,15 @@ import Programms from "../common/Programms";
 import Sidebar from "../common/Sidebar";
 import frontendDB from "../../db/frontend.json";
 import Card from "../common/Card";
+import { useEffect } from "react";
 
 function Frontend() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="relative flex min-h-screen gap-1 top">
+    <div className="flex items-stretch justify-center min-h-[calc(100vh-75px)] gap-1 top">
       <Sidebar field={"frontend"} />
       <Routes>
         <Route
@@ -17,7 +22,7 @@ function Frontend() {
           element={
             <Vscode>
               {frontendDB.vscode.length > 0 ? (
-                <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
+                <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
                   {frontendDB.vscode.map((extension) => {
                     return (
                       <Card
@@ -54,7 +59,7 @@ function Frontend() {
           element={
             <Packages>
               {frontendDB.packages.length > 0 ? (
-                <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
+                <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
                   {frontendDB.packages.map((pack) => {
                     return (
                       <Card
@@ -92,7 +97,7 @@ function Frontend() {
           element={
             <Websites>
               {frontendDB.websites.length > 0 ? (
-                <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
+                <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
                   {frontendDB.websites.map((website) => {
                     return (
                       <Card
@@ -128,7 +133,7 @@ function Frontend() {
           element={
             <Programms>
               {frontendDB.programms.length > 0 ? (
-                <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
+                <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
                   {frontendDB.programms.map((program) => {
                     return (
                       <Card

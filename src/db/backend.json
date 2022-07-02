@@ -1,0 +1,173 @@
+{
+  "vscode": [
+    {
+      "id": 0,
+      "modalId": "prettier",
+      "name": "Prettier",
+      "description": "Prettier is a Code Formatter that help you to organize your code,and it Support a lot of Programming Languages.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
+      "offecialUrl": "https://prettier.io/"
+    },
+    {
+      "id": 1,
+      "modalId": "better-comments",
+      "name": "Better Comments",
+      "description": "Better comments is nice VS Code Extension that allow you to Write Nice and beautifull comments.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments"
+    },
+    {
+      "id": 2,
+      "modalId": "indent-rainbow",
+      "name": "Indent Rainbow",
+      "description": "If you work with a lot of lines of code, you may make a mistake like forget opening and closing tags or other mistakes, But with this extansion you will not make this mistake again.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow"
+    },
+    {
+      "id": 3,
+      "modalId": "jest",
+      "name": "JEST",
+      "description": "If You use JEST Framework in Your Testing Process, This is nice extension for You, Jest EXtension giev you testing result withour run testing task in yoru Terminal.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest"
+    },
+    {
+      "id": 4,
+      "modalId": "material-icon-theme",
+      "name": "Material Icon Theme",
+      "description": "Nice Extension that give You nice and beatiful files icons, like javascript, python...etc, Material Icon Theme Extension supports Folders Icon too.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme"
+    },
+    {
+      "id": 5,
+      "modalId": "path-intellisense",
+      "name": "Path Intellisense",
+      "description": "Excellent Extension that help you to handle paths in your imports, Autocomplete Filenames and more",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense"
+    },
+
+    {
+      "id": 6,
+      "modalId": "urbo-console-log",
+      "name": "Turbo Console Log",
+      "description": "This Extension help you when you want to log some data in Console, It log data in console with some extra information like line, variable's name and more.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log"
+    },
+    {
+      "id": 7,
+      "modalId": "tokyo-night",
+      "name": "Tokyo Night",
+      "description": "Nice Theme that I start Using in VS Code Editor, It have nice colors and other Features.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night"
+    },
+    {
+      "id": 8,
+      "modalId": "snapcode",
+      "name": "Snapcode",
+      "description": "Nice Extension that help you to take beatiful snapshot to specific piece of code.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=moyu.snapcode"
+    },
+    {
+      "id": 9,
+      "modalId": "rainbow-tags",
+      "name": "Rainbow Tags",
+      "description": "Nice VS Code Extension that colorize HTML Tags, which help you to know start and end of the Tag.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=moyu.snapcode"
+    },
+    {
+      "id": 10,
+      "modalId": "dotenv",
+      "name": "DotENV",
+      "description": "DotENV Extension give a nice colors to yor environment variables, Which maek your development is more easier.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv"
+    },
+    {
+      "id": 11,
+      "modalId": "ayu",
+      "name": "Ayu",
+      "description": "A nother Nice Theme for VS Code Editor that give you a Professional SHapeand Colors.",
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=teabyii.ayu"
+    }
+  ],
+  "packages": [
+    {
+      "id": 0,
+      "modalId": "joi",
+      "name": "joi",
+      "description": "Joi is and npm package that used to handle validation process for your forms, it contains alot of awesome methods and properties that let you to validate your forms by easy way.",
+      "npmUrl": "https://www.npmjs.com/package/joi",
+      "offecialUrl": "https://joi.dev/api/?v=17.6.0",
+      "installCommand": "npm i joi"
+    },
+    {
+      "id": 1,
+      "modalId": "swr",
+      "name": "SWR",
+      "description": "SWR is an React hook that give you all you need to fetch data from APIs Endpoints and handle it in you Frontend Project, It isnot just as normal fetch library like axios of fetch, it give you alot of features like pagination, mutation and more",
+      "npmUrl": "https://www.npmjs.com/package/swr",
+      "offecialUrl": "https://swr.vercel.app/",
+      "installCommand": "npm i swr"
+    },
+
+    {
+      "id": 2,
+      "modalId": "json-server",
+      "name": "JSON Server",
+      "description": "JSON Server is a VS Code Extension that let you to apply CRUD Operations like get, post, put, delete...etc on and locally data in your machine and it is usful if you are frontend developer and you want to test your fetching process.",
+      "npmUrl": "https://www.npmjs.com/package/json-server",
+      "installCommand": "npm i json-server"
+    },
+    {
+      "id": 3,
+      "modalId": "axios",
+      "name": "Axios",
+      "description": "Axios is the most library that used in fetching data from APIs process, is has a lot of features and properties that ease fetching process.",
+      "npmUrl": "https://www.npmjs.com/package/axios",
+      "offecialUrl": "https://axios-http.com/",
+      "installCommand": "npm i axios"
+    },
+    {
+      "id": 4,
+      "modalId": "sweet-alert",
+      "name": "Sweet Alert",
+      "description": "Normal alerts in JavaScript has a lot of problems like bloking code from excution and more problems, Sweet Alert coming to solve this problem, It give Us nice Alerts that not contains problems.",
+      "npmUrl": "https://www.npmjs.com/package/sweetalert",
+      "offecialUrl": "https://sweetalert.js.org/",
+      "installCommand": "npm i sweetalert"
+    },
+    {
+      "id": 5,
+      "modalId": "react-toastify",
+      "name": "React Toastify",
+      "description": "React Toastify is a NPM Package that give Us nice Toasts and with different shapes and colors like error, info, success and warning so if you are frontend developer you shoud try It.",
+      "npmUrl": "https://www.npmjs.com/package/react-toastify",
+      "offecialUrl": "https://fkhadra.github.io/react-toastify/introduction/",
+      "installCommand": "npm i react-toastify"
+    },
+    {
+      "id": 6,
+      "modalId": "formik",
+      "name": "Formik",
+      "description": "Handling Forms is a difficult process that take a lot of time, Formik Library came to solve this problem, It give us a lot of hooks and functions that help us to handle events like submitting event.",
+      "npmUrl": "https://www.npmjs.com/package/formik",
+      "offecialUrl": "https://formik.org/",
+      "installCommand": "npm install formik --save"
+    }
+  ],
+  "websites": [
+    {
+      "id": 0,
+      "modalId": "fancy-border-radius-generator",
+      "name": "Fancy Border Rdaius Generator",
+      "description": "Awesome website to Create any CSS Border Radius shape shape by Easy way.",
+      "offecialUrl": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+    }
+  ],
+  "programms": [
+    {
+      "id": 0,
+      "modalId": "roboto-3t",
+      "name": "Roboto 3T",
+      "description": "Robot 3T is an nice Programm that help You to manage MongoDB local databases on Your machine which ease DB's Manage Process.",
+      "offecialUrl": "https://robomongo.org/"
+    }
+  ]
+}
