@@ -1,5 +1,6 @@
 //* Imports
 import { useEffect, useState } from "react";
+import { IoMdArrowDropdown } from "react-icons/io";
 import { Link, NavLink } from "react-router-dom";
 import styled from "../../styles/NavBar.module.scss";
 import { BsGithub } from "react-icons/bs";
@@ -18,7 +19,7 @@ function NavBar() {
     <div
       className={
         styled.navbar +
-        " sticky top-0 z-20 duration-100 shadow-md " +
+        " sticky top-0 z-20 duration-100 shadow-md w-full " +
         (scrollValue <= 0 ? "bg-violet-500" : "bg-violet-500/90")
       }
     >
@@ -37,7 +38,7 @@ function NavBar() {
                 className="w-10 h-10"
                 alt="Website Logo"
               />
-              <span className="w-64 text-slate-200">Web Guider</span>
+              <span className="w-36 text-slate-200">Web Guider</span>
             </Link>
             <div className="sm:hidden">
               <button
@@ -76,7 +77,7 @@ function NavBar() {
           </div>
           <div
             id="navbar-image-and-text-1"
-            className="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full grow sm:block"
+            className="hidden overflow-hidden transition-all duration-300 hs-collapse basis-full sm:block"
           >
             <div className="flex flex-col gap-5 mt-5 font-semibold text-center text-white text-md sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
               <NavLink
@@ -85,24 +86,41 @@ function NavBar() {
               >
                 Home
               </NavLink>
-              <NavLink
-                className="p-3 duration-300 rounded-xl hover:bg-violet-400/80"
-                to={"/frontend/vscode"}
-              >
-                Frontend
-              </NavLink>
-              <NavLink
-                className="p-3 duration-300 rounded-xl hover:bg-violet-400/80"
-                to={"/backend/vscode"}
-              >
-                Backend
-              </NavLink>
+
               <NavLink
                 className="p-3 duration-300 rounded-xl hover:bg-violet-400/80"
                 to={"/About"}
               >
                 About
               </NavLink>
+              <div class="hs-mega-menu flex justify-center items-center flex-col gap-2 w-full lg:w-auto">
+                <button
+                  id="hs-mega-menu-basic-dr"
+                  type="button"
+                  class="gap-1 text-white font-semibold text-md  text-center hs-mega-menu-toggle  flex items-center justify-center"
+                >
+                  <span className="text-md">Track</span>{" "}
+                  <IoMdArrowDropdown className="text-xl text-white" />
+                </button>
+
+                <div
+                  class="flex justify-center items-center flex-col hs-mega-menu-content hs-mega-menu-open:opacity-100 opacity-0 top-full translate-y-1 gap-3 hidden z-10 rounded-lg before:absolute before:-top-5 before:left-0 before:w-full before:h-5 w-full bg-violet-500/80 p-3 sm:w-48 sm:transition-all transition-[opacity,margin] sm:absolute sm:shadow-md sm:duration-300 dark:bg-gray-800"
+                  aria-labelledby="hs-mega-menu-basic-dr"
+                >
+                  <NavLink
+                    className="w-full p-3 duration-300 rounded-xl hover:bg-violet-400/80"
+                    to={"/frontend"}
+                  >
+                    Frontend
+                  </NavLink>
+                  <NavLink
+                    className="w-full p-3 duration-300 rounded-xl hover:bg-violet-400/80"
+                    to={"/backend"}
+                  >
+                    Backend
+                  </NavLink>
+                </div>
+              </div>
 
               <a
                 href="https://github.com/ahmedmohmd/web-guider/tree/main"

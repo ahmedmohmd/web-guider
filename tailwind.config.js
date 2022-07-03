@@ -19,10 +19,22 @@ module.exports = {
           "0%": { transform: "translateX(-3px)" },
           "100%": { transform: "translateX(7px)" },
         },
+        scrollBtn: {
+          "0%": {
+            transform: "translateY(8px)",
+            borderRadius: "62% 38% 61% 39% / 43% 78% 22% 57%",
+          },
+
+          "100%": {
+            transform: "translateY(-8px)",
+            borderRadius: "36% 64% 26% 74% / 81% 54% 46% 19%",
+          },
+        },
       },
 
       animation: {
         arrow: "arrow 1s ease-in-out infinite alternate",
+        scrollBtn: "scrollBtn 2s ease-in-out infinite alternate",
       },
     },
   },

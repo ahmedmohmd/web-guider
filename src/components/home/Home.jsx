@@ -9,7 +9,7 @@ function Home() {
     <div className={styled.home + " backdrop-blur-3xl"}>
       <Header />
       <GetStarted />
-      <Footer />
+    <Footer />
     </div>
   );
 }
