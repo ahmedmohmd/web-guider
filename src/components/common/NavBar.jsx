@@ -103,7 +103,7 @@ function NavBar() {
                 </button>
 
                 <div
-                  class="flex justify-center items-center flex-col hs-mega-menu-content hs-mega-menu-open:opacity-100 opacity-0 top-full translate-y-1 gap-3 hidden z-10 rounded-lg before:absolute before:-top-5 before:left-0 before:w-full before:h-5 w-full bg-violet-500/80 p-3 sm:w-48 sm:transition-all transition-[opacity,margin] sm:absolute sm:shadow-md sm:duration-300 dark:bg-gray-800"
+                  class="flex justify-center items-center flex-col hs-mega-menu-content hs-mega-menu-open:opacity-100 opacity-0 top-full translate-y-1 gap-3 hidden z-10 rounded-lg before:absolute before:-top-5 before:left-0 before:w-full before:h-5 w-full bg-violet-400/60 lg:bg-violet-500/80 p-3 sm:w-48 sm:transition-all transition-[opacity,margin] sm:absolute sm:shadow-md sm:duration-300 dark:bg-gray-800"
                   aria-labelledby="hs-mega-menu-basic-dr"
                 >
                   <NavLink

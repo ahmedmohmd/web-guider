@@ -13,7 +13,9 @@ html {
 }
 
 button:focus,
-button:active {
+button:active,
+a:focus,
+a:active {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
