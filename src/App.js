@@ -41,7 +41,7 @@ function App() {
       <button
         onClick={handleScroll}
         ref={scrollBtn}
-        className="fixed p-3 text-white duration-300 animate-scrollBtn scroll-btn -right-16 sm:bottom-10 bottom-6 bg-gradient-to-r from-purple-500/75 to-pink-500/75 hover:bg-gradient-to-l"
+        className="fixed p-3 text-white duration-300 animate-scrollBtn scroll-btn -right-16 sm:bottom-10 bottom-6 bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

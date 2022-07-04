@@ -1,9 +1,10 @@
 .card {
-  .cardHash {
+  .card-hash {
     transition: all 0.5s;
   }
+
   &:hover {
-    .cardHash {
+    .card-hash {
       padding-left: 100%;
     }
   }

@@ -1,47 +1,35 @@
 //* Imports
-import styled from "../../styles/Card.module.scss";
+import "../../styles/components/common/card.scss";
 import Modal from "./Modal";
 
 //* Card JSX
-function Card({
-  cardTitle,
-  cardSubtitle,
-  cardDescription,
-  npmInstallCommand,
-  uniqueId,
-  vscodeUrl,
-  offecialUrl,
-  npmUrl,
-  headingColor,
-  buttonBgColor,
-  buttonColor,
-}) {
+function Card({ modalId, cardInfo, trackColors, urls, npmInstallCommand }) {
   return (
     <div>
       <div
-        class={`${styled.card} flex flex-col h-94 hover:-translate-y-1 duration-500 bg-gradient-to-tr transition-all  justify-center shadow-lg rounded-3xl p-4 md:p-5 !pb-2`}
+        class={`card flex flex-col h-94 hover:-translate-y-1 duration-500 bg-gradient-to-tr transition-all  justify-center shadow-lg rounded-3xl p-4 md:p-5 !pb-2`}
       >
         <span className="relative w-fit">
           <span
-            className={`${styled.cardHash} ${headingColor} absolute px-4 py-3 h-full -left-2 rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl`}
+            className={`card-hash ${trackColors.headingBgColor} absolute px-4 py-3 h-full -left-2 rounded-tl-md rounded-tr-3xl rounded-br-md rounded-bl-3xl`}
           ></span>
-          <a href="#" className="">
+          <a className="hover:cursor-pointer">
             <h3
-              data-hs-modal={`#${uniqueId}`}
+              data-hs-modal={`#${modalId}`}
               class="line-clamp-1 relative text-xl lg:text-2xl  font-bold text-slate-600/90"
             >
-              {cardTitle}
+              {cardInfo.title}
             </h3>
           </a>
         </span>
         <p class="mt-[7px] mb-2 text-xs font-medium uppercase text-slate-400 ">
-          {cardSubtitle}
+          {cardInfo.subTitle}
         </p>
-        <p class="mt-2 text-slate-500 line-clamp-3">{cardDescription}</p>
+        <p class="mt-2 text-slate-500 line-clamp-3">{cardInfo.description}</p>
         <div class="p-3 pl-0">
           <button
-            class={`${buttonBgColor} ${buttonColor} inline-flex items-center mt-3 hover:cursor-pointer duration-500 py-3 px-4 rounded-2xl`}
-            data-hs-modal={`#${uniqueId}`}
+            class={`${trackColors.buttonBgColor} ${trackColors.buttonColor} inline-flex items-center mt-3 hover:cursor-pointer duration-500 py-3 px-4 rounded-2xl`}
+            data-hs-modal={`#${modalId}`}
           >
             Learn More
             <svg
@@ -59,13 +47,13 @@ function Card({
         </div>
       </div>
       <Modal
-        modalTitle={cardTitle}
-        modalDescription={cardDescription}
+        modalInfo={{
+          title: cardInfo.title,
+          description: cardInfo.description,
+        }}
         npmInstallCommand={npmInstallCommand}
-        uniqueId={uniqueId}
-        offecialUrl={offecialUrl}
-        vscodeUrl={vscodeUrl}
-        npmUrl={npmUrl}
+        modalId={modalId}
+        urls={urls}
       />
     </div>
   );

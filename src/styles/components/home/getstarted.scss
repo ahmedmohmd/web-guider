@@ -1,0 +1,15 @@
+.get-started {
+  .home-heading {
+    .hash {
+      color: #475569;
+      transition: all 0.7s;
+    }
+
+    &:hover {
+      .hash {
+        padding-right: 95%;
+        color: #fff;
+      }
+    }
+  }
+}

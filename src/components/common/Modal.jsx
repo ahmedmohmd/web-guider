@@ -4,30 +4,21 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import { shadesOfPurple } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 //* Modal JSX
-function Modal({
-  modalTitle,
-  modalDescription,
-  npmInstallCommand = null,
-  uniqueId,
-  vscodeUrl,
-  offecialUrl,
-  npmUrl,
-}) {
+function Modal({ modalInfo, urls, modalId, npmInstallCommand }) {
   const [copied, setCopied] = useState(false);
-
   return (
     <div
-      id={uniqueId}
+      id={modalId}
       class="hs-modal hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto"
     >
       <div class="hs-modal-open:mt-7 hs-modal-open:opacity-100 hs-modal-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto min-h-[calc(100%-3.5rem)] flex items-center">
         <div class="flex flex-col bg-white border shadow-sm rounded-xl">
           <div class="flex justify-between items-center p-4 border-b-2 border-b-slate-200/50">
-            <h3 class="text-2xl font-bold text-slate-600">{modalTitle}</h3>
+            <h3 class="text-2xl font-bold text-slate-600">{modalInfo.title}</h3>
             <button
               type="button"
               class="hs-dropdown-toggle inline-flex flex-shrink-0 justify-center items-center h-8 w-8 rounded-md text-red-500 hover:bg-red-100  focus:outline-none focus:ring-2 focus:ring-red-400/70 focus:ring-offset-2 focus:ring-offset-white transition-all text-sm "
-              data-hs-modal={`#${uniqueId}`}
+              data-hs-modal={`#${modalId}`}
             >
               <span class="sr-only">Close</span>
               <svg
@@ -50,7 +41,7 @@ function Modal({
               Description:
             </h3>
 
-            <p class="text-slate-500">{modalDescription}</p>
+            <p class="text-slate-500">{modalInfo.description}</p>
           </div>
           {npmInstallCommand ? (
             <div className="relative p-4">
@@ -109,30 +100,30 @@ function Modal({
             </div>
           ) : null}
           <div class="flex justify-end items-center gap-x-2 py-3 px-4 border-t-2 border-t-slate-200/50">
-            {vscodeUrl ? (
+            {urls.vscodeUrl ? (
               <a
-                href={vscodeUrl}
-                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-blue-200 font-semibold text-blue-500 hover:text-white hover:bg-blue-500 hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-offset-2 transition-all text-sm"
-                data-hs-modal={`#${uniqueId}`}
+                href={urls.vscodeUrl}
+                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-blue-200 font-semibold text-blue-500 hover:text-white hover:bg-blue-500 hover:border-blue-500 focus:outline-none transition-all text-sm"
+                data-hs-modal={`#${modalId}`}
               >
                 VS Code URL
               </a>
-            ) : npmUrl ? (
+            ) : urls.npmUrl ? (
               <a
-                href={npmUrl}
-                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-red-200 font-semibold text-red-500 hover:text-white hover:bg-red-500 hover:border-red-500 focus:outline-none focus:ring-2 focus:ring-red-200 focus:ring-offset-2 transition-all text-sm"
-                data-hs-modal={`#${uniqueId}`}
+                href={urls.npmUrl}
+                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-red-200 font-semibold text-red-500 hover:text-white hover:bg-red-500 hover:border-red-500 focus:outline-none  transition-all text-sm"
+                data-hs-modal={`#${modalId}`}
               >
                 NPM URL
               </a>
             ) : null}
-            {offecialUrl ? (
+            {urls.offecialUrl ? (
               <a
-                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-violet-200 font-semibold text-violet-500 hover:text-white hover:bg-violet-500 hover:border-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-200 focus:ring-offset-2 transition-all text-sm"
-                href={offecialUrl}
+                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-violet-200 font-semibold text-violet-500 hover:text-white hover:bg-violet-500 hover:border-violet-500 focus:outline-none transition-all text-sm"
+                href={urls.offecialUrl}
                 target="_blank"
               >
-                Offecial Url
+                Offecial URL
               </a>
             ) : null}
           </div>

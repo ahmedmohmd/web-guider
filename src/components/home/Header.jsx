@@ -1,8 +1,10 @@
-import styled from "../../styles/Home.module.scss";
+//* Imports
+import "../../styles/components/home/header.scss";
 
+//* Header JSX
 function Header() {
   return (
-    <div className={styled.header + " h-full"}>
+    <div className={"header h-full"}>
       <div className="container h-full mx-auto">
         <div className="flex flex-col h-full px-4 pt-5 mx-auto lg:gap-0 lg:flex-row lg:justify-between lg:items-center lg:pt-16 lg:pb-32 sm:max-w-xl md:max-w-full">
           <div className="order-2 max-w-xl mx-auto text-center break-words lg:order-1 lg:text-start lg:max-w-screen-xl">
@@ -24,7 +26,7 @@ function Header() {
               <div className="flex items-center justify-center lg:justify-start">
                 <a
                   href="#get-started"
-                  className="px-5 py-3 text-sm font-medium text-center text-white duration-500 bg-gradient-to-r from-purple-500/75 to-pink-500/75 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 rounded-xl lg:rounded-2xl lg:text-md lg:px-7 lg:py-4"
+                  className="px-5 py-3 text-sm font-medium text-center text-white duration-500 bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 rounded-xl lg:rounded-2xl lg:text-md lg:px-7 lg:py-4"
                 >
                   Quick Start
                 </a>

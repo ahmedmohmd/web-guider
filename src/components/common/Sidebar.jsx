@@ -1,7 +1,6 @@
 //* Imports
-import { useRef } from "react";
 import { NavLink } from "react-router-dom";
-import styled from "../../styles/Sidebar.module.scss";
+import "../../styles/components/common/sidebar.scss";
 
 //* Sidebar JSX
 function Sidebar({ field }) {
@@ -59,8 +58,7 @@ function Sidebar({ field }) {
               <li>
                 <NavLink
                   class={
-                    "vscode-link flex items-center gap-x-3 bg-gray-100 text-sm text-slate-700 rounded-md hover:bg-gray-100 " +
-                    styled.vscodeLink
+                    "vscode-link flex items-center gap-x-3 bg-gray-100 text-sm text-slate-700 rounded-md hover:bg-gray-100 vscode-link"
                   }
                   to={`/${field}/vscode`}
                 >

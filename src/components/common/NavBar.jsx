@@ -1,9 +1,9 @@
 //* Imports
 import { useEffect, useState } from "react";
+import { BsGithub } from "react-icons/bs";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { Link, NavLink } from "react-router-dom";
-import styled from "../../styles/NavBar.module.scss";
-import { BsGithub } from "react-icons/bs";
+import "../../styles/components/common/navbar.scss";
 
 //* NavBar JSX
 function NavBar() {
@@ -18,8 +18,7 @@ function NavBar() {
   return (
     <div
       className={
-        styled.navbar +
-        " sticky top-0 z-20 duration-100 shadow-md w-full " +
+        "navbar sticky top-0 z-20 duration-100 shadow-md w-full " +
         (scrollValue <= 0 ? "bg-violet-500" : "bg-violet-500/90")
       }
     >

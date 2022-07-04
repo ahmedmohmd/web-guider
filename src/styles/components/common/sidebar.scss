@@ -1,0 +1,81 @@
+.sidebar {
+  & li {
+    width: 100%;
+  }
+
+  & li a {
+    display: inline-flex;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 0.875em;
+    transition: all 0.3s;
+    color: rgb(67, 83, 106);
+    width: 100% !important;
+  }
+
+  & li a {
+    color: #9564f7;
+  }
+
+  & li a:hover {
+    background-color: #ede9fe !important;
+  }
+
+  & li a.active {
+    background-color: #9564f7;
+    color: #fff;
+  }
+
+  & li a.active svg {
+    fill: #fff;
+  }
+
+  & li a.active:hover {
+    background-color: #9564f7 !important;
+    color: #fff;
+  }
+
+  & li:nth-child(4) a.active svg,
+  & li:nth-child(2) a.active svg {
+    fill: none;
+    stroke: #fff;
+  }
+
+  @media (max-width: 1024px) {
+    & li a {
+      color: #fff;
+    }
+
+    & li a:hover {
+      background-color: #a281f9 !important;
+    }
+
+    & li a.active {
+      background-color: #fff;
+      color: #8c60f6 !important;
+    }
+
+    & li a.active svg {
+      fill: #9564f7;
+    }
+
+    & li:nth-child(4) a.active svg,
+    & li:nth-child(2) a.active svg {
+      fill: none;
+      stroke: #9564f7;
+    }
+
+    & li a.active:hover {
+      background-color: #fff !important;
+    }
+  }
+}
+
+.vscode-link {
+  background-color: #e9effe;
+  color: #3a82f6;
+}
+.vscode-link:hover {
+  background-color: #e9effe;
+  color: #3a82f6;
+}

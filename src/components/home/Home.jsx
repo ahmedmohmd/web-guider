@@ -1,15 +1,15 @@
 //* Imports
-import styled from "../../styles/Home.module.scss";
-import Footer from "../common/Footer";
+import Footer from "./Footer";
 import GetStarted from "./GetStarted";
 import Header from "./Header";
 
+//* Home JSX
 function Home() {
   return (
-    <div className={styled.home + " backdrop-blur-3xl"}>
+    <div className={"home backdrop-blur-3xl"}>
       <Header />
       <GetStarted />
-    <Footer />
+      <Footer />
     </div>
   );
 }
