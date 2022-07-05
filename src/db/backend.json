@@ -237,7 +237,16 @@
       "tags": ["npm"]
     }
   ],
-  "websites": [],
+  "websites": [
+    {
+      "id": 0,
+      "modalId": "json-placeholder",
+      "name": "JSON Placeholder",
+      "description": "Great Website that give you fake APIs End Points to use it in your applications.",
+      "offecialUrl": "https://jsonplaceholder.typicode.com/",
+      "tags": ["fetching", "api"]
+    }
+  ],
   "programms": [
     {
       "id": 0,

@@ -1,6 +1,42 @@
 //* Imports
 import "../../styles/components/common/card.scss";
+import _ from "lodash";
 import Modal from "./Modal";
+
+const tagColors = [
+  {
+    color: "text-yellow-800",
+    bg: "bg-yellow-100/50",
+  },
+  {
+    color: "text-red-800",
+    bg: "bg-red-100/50",
+  },
+  {
+    color: "text-pink-800",
+    bg: "bg-pink-100/50",
+  },
+  {
+    color: "text-cyan-800",
+    bg: "bg-cyan-100/50",
+  },
+  {
+    color: "text-green-800",
+    bg: "bg-green-100/50",
+  },
+  {
+    color: "text-gray-800",
+    bg: "bg-gray-100/50",
+  },
+  {
+    color: "text-violet-800",
+    bg: "bg-violet-100/50",
+  },
+  {
+    color: "text-orange-800",
+    bg: "bg-orange-100/50",
+  },
+];
 
 //* Card JSX
 function Card({ modalId, cardInfo, trackColors, urls, npmInstallCommand }) {
@@ -48,28 +84,14 @@ function Card({ modalId, cardInfo, trackColors, urls, npmInstallCommand }) {
           </div>
           <div className="flex items-center justify-end gap-2 lg:order-2">
             {cardInfo.tags.map((tag) => {
-              return tag === "react" ? (
-                <span class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-sm  bg-cyan-100/50 text-cyan-800">
-                  # {tag}
-                </span>
-              ) : tag === "npm" ? (
-                <span class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-sm  bg-red-100/50 text-red-800">
-                  # {tag}
-                </span>
-              ) : (tag === "vscode" || tag === "css") ? (
-                <span class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-sm  bg-blue-100/50 text-blue-800">
-                  # {tag}
-                </span>
-              ) : tag === "git" || tag === "github" ? (
-                <span class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-sm  bg-gray-100/50 text-gray-800">
-                  # {tag}
-                </span>
-              ) : (
-                <span class="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-sm  bg-purple-100/50 text-purple-800">
+              const colorsIndex = _.random(7);
+              return (
+                <span
+                  class={`inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-sm ${tagColors[colorsIndex].bg} ${tagColors[colorsIndex].color}`}
+                >
                   # {tag}
                 </span>
               );
-              return <button className="text-red-500 ">{tag}</button>;
             })}
           </div>
         </div>
