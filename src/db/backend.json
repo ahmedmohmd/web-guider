@@ -148,7 +148,7 @@
     {
       "id": 5,
       "modalId": "nightmare",
-      "name": "Telegraf",
+      "name": "Nightmare",
       "description": "Great NPM library that you can use it in you web scraping work, It have a nice features that will give you what you need.",
       "npmUrl": "https://www.npmjs.com/package/nightmare",
       "installCommand": "npm i nightmare"

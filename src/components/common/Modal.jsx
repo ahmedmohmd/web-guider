@@ -102,6 +102,7 @@ function Modal({ modalInfo, urls, modalId, npmInstallCommand }) {
           <div class="flex justify-end items-center gap-x-2 py-3 px-4 border-t-2 border-t-slate-200/50">
             {urls.vscodeUrl ? (
               <a
+                target="_blank"
                 href={urls.vscodeUrl}
                 class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-blue-200 font-semibold text-blue-500 hover:text-white hover:bg-blue-500 hover:border-blue-500 focus:outline-none transition-all text-sm"
                 data-hs-modal={`#${modalId}`}
@@ -110,6 +111,7 @@ function Modal({ modalInfo, urls, modalId, npmInstallCommand }) {
               </a>
             ) : urls.npmUrl ? (
               <a
+                target="_blank"
                 href={urls.npmUrl}
                 class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-red-200 font-semibold text-red-500 hover:text-white hover:bg-red-500 hover:border-red-500 focus:outline-none  transition-all text-sm"
                 data-hs-modal={`#${modalId}`}
@@ -119,11 +121,11 @@ function Modal({ modalInfo, urls, modalId, npmInstallCommand }) {
             ) : null}
             {urls.offecialUrl ? (
               <a
+                target="_blank"
                 class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-violet-200 font-semibold text-violet-500 hover:text-white hover:bg-violet-500 hover:border-violet-500 focus:outline-none transition-all text-sm"
                 href={urls.offecialUrl}
-                target="_blank"
               >
-                Offecial URL
+                Offecial Website
               </a>
             ) : null}
           </div>

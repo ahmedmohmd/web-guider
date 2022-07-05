@@ -46,6 +46,6 @@ This is the Source Code [**Web Guider**](https://web-guider.vercel.app/) Website
 
 ---
 
-# Web App Screenshot
+# Website Screenshot
 
 ![Web Guider]()
