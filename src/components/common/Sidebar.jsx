@@ -9,7 +9,7 @@ function Sidebar({ field }) {
       <div className="lg:sticky lg:top-14">
         <button
           type="button"
-          class="z-[10] animate-arrow fixed lg:hidden top-1/2 left-2 text-gray-500 hover:text-gray-600"
+          class="p-3 z-[10] animate-arrow fixed lg:hidden top-1/2 left-2 rounded-full duration-500 hover:bg-violet-200/50"
           data-hs-sidebar="#docs-sidebar"
           aria-controls="docs-sidebar"
           aria-label="Toggle navigation"
