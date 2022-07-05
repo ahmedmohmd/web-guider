@@ -3,6 +3,7 @@ import { useLayoutEffect, useRef } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Backend from "./components/backend/Backend";
 import NavBar from "./components/common/NavBar";
+import NotFound from "./components/error/NotFound";
 import Frontend from "./components/frontend/Frontend";
 import Home from "./components/home/Home";
 
@@ -37,11 +38,12 @@ function App() {
           path="/backend"
           element={<Navigate replace to="/backend/vscode" />}
         />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <button
         onClick={handleScroll}
         ref={scrollBtn}
-        className="fixed p-3 text-white duration-300 animate-scrollBtn scroll-btn -right-16 sm:bottom-10 bottom-6 bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l"
+        className="fixed p-3 text-white duration-300 animate-scrollBtn scroll-btn -right-16 sm:bottom-10 bottom-6 bg-gradient-to-r from-purple-500/90 to-pink-500/90 hover:bg-gradient-to-l"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

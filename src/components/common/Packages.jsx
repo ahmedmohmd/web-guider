@@ -16,7 +16,7 @@ function Packages({ packages }) {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3">
           {packages.map(
             ({
               name,
@@ -26,6 +26,7 @@ function Packages({ packages }) {
               npmUrl,
               offecialUrl,
               installCommand,
+              tags,
             }) => {
               return (
                 <Card
@@ -35,6 +36,7 @@ function Packages({ packages }) {
                     title: name,
                     subtitle: "NPM Packages",
                     description: description,
+                    tags,
                   }}
                   npmInstallCommand={installCommand}
                   trackColors={{

@@ -6,119 +6,136 @@
       "name": "Prettier",
       "description": "Prettier is a Code Formatter that help you to organize your code,and it Support a lot of Programming Languages.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
-      "offecialUrl": "https://prettier.io/"
+      "offecialUrl": "https://prettier.io/",
+      "tags": ["vscode"]
     },
     {
       "id": 1,
       "modalId": "better-comments",
       "name": "Better Comments",
       "description": "Better comments is nice VS Code Extension that allow you to Write Nice and beautifull comments.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments",
+      "tags": ["vscode"]
     },
     {
       "id": 2,
       "modalId": "auto-close-tag",
       "name": "Auto Close Tag",
       "description": "When you work with HTML you may forget to close tag, This VS Code Extension is Nice for You.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag",
+      "tags": ["vscode"]
     },
     {
       "id": 3,
       "modalId": "indent-rainbow",
       "name": "Indent Rainbow",
       "description": "If you work with a lot of lines of code, you may make a mistake like forget opening and closing tags or other mistakes, But with this extansion you will not make this mistake again.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow",
+      "tags": ["vscode"]
     },
     {
       "id": 4,
       "modalId": "jest",
       "name": "JEST",
       "description": "If You use JEST Framework in Your Testing Process, This is nice extension for You, Jest EXtension giev you testing result withour run testing task in yoru Terminal.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest",
+      "tags": ["vscode"]
     },
     {
       "id": 5,
       "modalId": "live-server",
       "name": "Live Server",
       "description": "Live Server is the Most famous VS Code Extensions that let you to run locla server in your Machine to see changes Immediately.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+      "tags": ["vscode"]
     },
     {
       "id": 6,
       "modalId": "material-icon-theme",
       "name": "Material Icon Theme",
       "description": "Nice Extension that give You nice and beatiful files icons, like javascript, python...etc, Material Icon Theme Extension supports Folders Icon too.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme",
+      "tags": ["themes", "vscode"]
     },
     {
       "id": 7,
       "modalId": "path-intellisense",
       "name": "Path Intellisense",
       "description": "Excellent Extension that help you to handle paths in your imports, Autocomplete Filenames and more",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense",
+      "tags": ["vscode"]
     },
     {
       "id": 8,
       "modalId": "simple-react-snippets",
       "name": "Simple React Snippets",
       "description": "If You are React Developer this Extansion is an important to you, It helps you to create Big code by some Shortcuts which ease your development Process.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets",
+      "tags": ["vscode", "react"]
     },
     {
       "id": 9,
       "modalId": "tailwind-css-intellisense",
       "name": "Tailwind CSS IntelliSense",
       "description": "Nice Extension that help you if you are use Tailwind CSS Developer, It help you by suggest tailwind properties during your Work.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss",
+      "tags": ["vscode", "tailwindcss"]
     },
     {
       "id": 10,
       "modalId": "turbo-console-log",
       "name": "Turbo Console Log",
       "description": "This Extension help you when you want to log some data in Console, It log data in console with some extra information like line, variable's name and more.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log",
+      "tags": ["vscode"]
     },
     {
       "id": 11,
       "modalId": "tokyo-night",
       "name": "Tokyo Night",
       "description": "Nice Theme that I start Using in VS Code Editor, It have nice colors and other Features.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night",
+      "tags": ["vscode", "themes"]
     },
     {
       "id": 12,
       "modalId": "snapcode",
       "name": "Snapcode",
       "description": "Nice Extension that help you to take beatiful snapshot to specific piece of code.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=moyu.snapcode"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=moyu.snapcode",
+      "tags": ["vscode"]
     },
     {
       "id": 13,
       "modalId": "rainbow-tags",
       "name": "Rainbow Tags",
       "description": "Nice VS Code Extension that colorize HTML Tags, which help you to know start and end of the Tag.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=voldemortensen.rainbow-tags"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=voldemortensen.rainbow-tags",
+      "tags": ["vscode"]
     },
     {
       "id": 14,
       "modalId": "ayu",
       "name": "Ayu",
       "description": "A nother Nice Theme for VS Code Editor that give you a Professional SHapeand Colors.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=teabyii.ayu"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=teabyii.ayu",
+      "tags": ["vscode", "themes"]
     },
     {
       "id": 15,
       "modalId": "headwind",
       "name": "Headwind",
       "description": "The Big Problem in Tailwind CSS is that you may write a lot of classes and that make you to forget to oganize these classes, Headwind came to solve this problem, It ReArrange all Tailwind classes when you save the file.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=heybourn.headwind"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=heybourn.headwind",
+      "tags": ["vscode", "tailwindcss"]
     },
     {
       "id": 16,
       "modalId": "git-lens",
       "name": "Git Lens",
       "description": "Nice Extension that give you ability to handle your repos graphically and by easy way.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
+      "tags": ["vscode", "git", "github"]
     }
   ],
   "packages": [
@@ -129,7 +146,8 @@
       "description": "Joi is and npm package that used to handle validation process for your forms, it contains alot of awesome methods and properties that let you to validate your forms by easy way.",
       "npmUrl": "https://www.npmjs.com/package/joi",
       "offecialUrl": "https://joi.dev/api/?v=17.6.0",
-      "installCommand": "npm i joi"
+      "installCommand": "npm i joi",
+      "tags": ["npm"]
     },
     {
       "id": 1,
@@ -138,7 +156,8 @@
       "description": "SWR is an React hook that give you all you need to fetch data from APIs Endpoints and handle it in you Frontend Project, It isnot just as normal fetch library like axios of fetch, it give you alot of features like pagination, mutation and more",
       "npmUrl": "https://www.npmjs.com/package/swr",
       "offecialUrl": "https://swr.vercel.app/",
-      "installCommand": "npm i swr"
+      "installCommand": "npm i swr",
+      "tags": ["npm"]
     },
     {
       "id": 2,
@@ -146,7 +165,8 @@
       "name": "JSON Server",
       "description": "JSON Server is a VS Code Extension that let you to apply CRUD Operations like get, post, put, delete...etc on and locally data in your machine and it is usful if you are frontend developer and you want to test your fetching process.",
       "npmUrl": "https://www.npmjs.com/package/json-server",
-      "installCommand": "npm i json-server"
+      "installCommand": "npm i json-server",
+      "tags": ["npm", "json"]
     },
     {
       "id": 3,
@@ -155,7 +175,8 @@
       "description": "Axios is the most library that used in fetching data from APIs process, is has a lot of features and properties that ease fetching process.",
       "npmUrl": "https://www.npmjs.com/package/axios",
       "offecialUrl": "https://axios-http.com/",
-      "installCommand": "npm i axios"
+      "installCommand": "npm i axios",
+      "tags": ["npm", "json"]
     },
     {
       "id": 4,
@@ -164,7 +185,8 @@
       "description": "Normal alerts in JavaScript has a lot of problems like bloking code from excution and more problems, Sweet Alert coming to solve this problem, It give Us nice Alerts that not contains problems.",
       "npmUrl": "https://www.npmjs.com/package/sweetalert",
       "offecialUrl": "https://sweetalert.js.org/",
-      "installCommand": "npm i sweetalert"
+      "installCommand": "npm i sweetalert",
+      "tags": ["npm"]
     },
     {
       "id": 5,
@@ -173,7 +195,8 @@
       "description": "React Toastify is a NPM Package that give Us nice Toasts and with different shapes and colors like error, info, success and warning so if you are frontend developer you shoud try It.",
       "npmUrl": "https://www.npmjs.com/package/react-toastify",
       "offecialUrl": "https://fkhadra.github.io/react-toastify/introduction/",
-      "installCommand": "npm i react-toastify"
+      "installCommand": "npm i react-toastify",
+      "tags": ["npm", "react"]
     },
     {
       "id": 6,
@@ -182,7 +205,8 @@
       "description": "Handling Forms is a difficult process that take a lot of time, Formik Library came to solve this problem, It give us a lot of hooks and functions that help us to handle events like submitting event.",
       "npmUrl": "https://www.npmjs.com/package/formik",
       "offecialUrl": "https://formik.org/",
-      "installCommand": "npm install formik --save"
+      "installCommand": "npm install formik --save",
+      "tags": ["npm", "forms"]
     },
     {
       "id": 7,
@@ -191,7 +215,8 @@
       "description": "React Hook Form is like Formik that used to handle Forms with great preformance and it suitable for large scale forms.",
       "npmUrl": "https://www.npmjs.com/package/react-hook-form",
       "offecialUrl": "https://react-hook-form.com/advanced-usage/",
-      "installCommand": "npm i react-hook-form"
+      "installCommand": "npm i react-hook-form",
+      "tags": ["npm", "forms", "react"]
     },
     {
       "id": 8,
@@ -200,7 +225,8 @@
       "description": "Chart JS is an npm package that used to insert animated and interactive informations components.",
       "npmUrl": "https://www.npmjs.com/package/chart.js?activeTab=readme",
       "offecialUrl": "https://www.chartjs.org/",
-      "installCommand": "npm i chart.js"
+      "installCommand": "npm i chart.js",
+      "tags": ["npm"]
     },
     {
       "id": 9,
@@ -208,7 +234,8 @@
       "name": "React QR Reader",
       "description": "Nice Package that used to read QR Code, It's usage is very simple but have a great benefit.",
       "npmUrl": "https://www.npmjs.com/package/react-qr-reader",
-      "installCommand": "npm i react-qr-reader"
+      "installCommand": "npm i react-qr-reader",
+      "tags": ["npm", "react", "qrcode"]
     },
     {
       "id": 10,
@@ -216,7 +243,8 @@
       "name": "QR Code React",
       "description": "Nice Package that used to Create QR Code, It's usage is very simple but have a great benefit.",
       "npmUrl": "https://www.npmjs.com/package/qrcode.react",
-      "installCommand": "npm i qrcode.react"
+      "installCommand": "npm i qrcode.react",
+      "tags": ["npm", "react", "qrcode"]
     },
     {
       "id": 11,
@@ -224,7 +252,8 @@
       "name": "React Syntax Highlighter",
       "description": "One of my favourite package that use in this project it give you ability to add code blocks in frontend applications, It support a lot of languages and tens of great themes that make your project looks good.",
       "npmUrl": "https://www.npmjs.com/package/react-syntax-highlighter",
-      "installCommand": "npm i react-syntax-highlighter"
+      "installCommand": "npm i react-syntax-highlighter",
+      "tags": ["npm", "react"]
     },
     {
       "id": 12,
@@ -233,7 +262,8 @@
       "description": "Nice Library that help you to implement advanced animations in your website, So if you dealing a lot with animations you should use it to ease you work.",
       "npmUrl": "https://www.npmjs.com/package/framer-motion",
       "offecialUrl": "https://www.framer.com/motion/",
-      "installCommand": "npm i framer-motion"
+      "installCommand": "npm i framer-motion",
+      "tags": ["npm", "react", "animation"]
     },
     {
       "id": 13,
@@ -241,7 +271,8 @@
       "name": "React Typed",
       "description": "Creat NPM Package that will help you to add Typing Writer Effect, which will add nice feature to your website.",
       "npmUrl": "https://www.npmjs.com/package/react-typed",
-      "installCommand": "npm i react-typed"
+      "installCommand": "npm i react-typed",
+      "tags": ["npm", "react"]
     },
     {
       "id": 14,
@@ -250,7 +281,8 @@
       "description": "The best package in my opinion to implement css in js that you can use it in your frontend application.",
       "npmUrl": "https://www.npmjs.com/package/styled-components",
       "offecialUrl": "https://styled-components.com/",
-      "installCommand": "npm i styled-components"
+      "installCommand": "npm i styled-components",
+      "tags": ["npm", "react", "css"]
     },
     {
       "id": 15,
@@ -259,7 +291,8 @@
       "description": "Nice npm package that will ease your work with chartjs library if you use React JS.",
       "npmUrl": "https://www.npmjs.com/package/react-chartjs-2",
       "offecialUrl": "https://react-chartjs-2.js.org/",
-      "installCommand": "npm i react-chartjs-2"
+      "installCommand": "npm i react-chartjs-2",
+      "tags": ["npm"]
     },
     {
       "id": 16,
@@ -268,7 +301,8 @@
       "description": "Great library that will help you in if you dealing with Audio in your Applications, It have great features and methods that ease Audio handling Process.",
       "npmUrl": "https://www.npmjs.com/package/howler",
       "offecialUrl": "https://howlerjs.com/",
-      "installCommand": "npm i howler"
+      "installCommand": "npm i howler",
+      "tags": ["npm", "react", "audio"]
     },
     {
       "id": 17,
@@ -277,7 +311,8 @@
       "description": "This Library you must use it, It is Great Library that have a lot of functions that will ease your work with javascript..",
       "npmUrl": "https://www.npmjs.com/package/lodash",
       "offecialUrl": "https://lodash.com/",
-      "installCommand": "npm i lodash"
+      "installCommand": "npm i lodash",
+      "tags": ["npm", "javascript"]
     }
   ],
   "websites": [
@@ -286,35 +321,40 @@
       "modalId": "fancy-border-radius-generator",
       "name": "Fancy Border Rdaius Generator",
       "description": "Awesome website to Create any CSS Border Radius shapes by Easy way, WHich will speed your development process.",
-      "offecialUrl": "https://9elements.github.io/fancy-border-radius/"
+      "offecialUrl": "https://9elements.github.io/fancy-border-radius/",
+      "tags": ["websites", "css"]
     },
     {
       "id": 1,
       "modalId": "hero-icons",
       "name": "Heroicon",
       "description": "Nice website that will give you beatiful icons as svg format to implement in your application without installing libraries like Fontawesome.",
-      "offecialUrl": "https://heroicons.com/"
+      "offecialUrl": "https://heroicons.com/",
+      "tags": ["websites", "html", "icons"]
     },
     {
       "id": 2,
       "modalId": "css-gradient-generator",
       "name": "CSS Gradient Generator",
       "description": "Great Website that help you to make CSS gradients by easy way, which speed your development process.",
-      "offecialUrl": "https://cssgradient.io/"
+      "offecialUrl": "https://cssgradient.io/",
+      "tags": ["websites", "css"]
     },
     {
       "id": 3,
       "modalId": "browser-frame",
       "name": "Browser Frame",
       "description": "Nice website that help you to put your Images in nice frames like Chrome, Safari and Mozilla Browsers and with different themes Like Dark and Light Theme.",
-      "offecialUrl": "https://browserframe.com/"
+      "offecialUrl": "https://browserframe.com/",
+      "tags": ["websites"]
     },
     {
       "id": 4,
       "modalId": "getwaves",
       "name": "Getwaves",
       "description": "Getwaves is great website that will give you svg wave and with different shapes to implement it in your website.",
-      "offecialUrl": "https://getwaves.io/"
+      "offecialUrl": "https://getwaves.io/",
+      "tags": ["websites", "css"]
     }
   ],
   "programms": [
@@ -323,21 +363,24 @@
       "modalId": "vscode",
       "name": "VS Code",
       "description": "The most populer code editor that every developer should used it at least once, It have all features that speed your development process.",
-      "offecialUrl": "https://code.visualstudio.com/"
+      "offecialUrl": "https://code.visualstudio.com/",
+      "tags": ["programms", "vscode"]
     },
     {
       "id": 1,
       "modalId": "sublime-text",
       "name": "Sublime Text",
       "description": "Another nice Code Editor that have nice and great features that will help you in your work as a Programmer.",
-      "offecialUrl": "https://www.sublimetext.com/"
+      "offecialUrl": "https://www.sublimetext.com/",
+      "tags": ["programms"]
     },
     {
       "id": 2,
       "modalId": "atom",
       "name": "Atom",
       "description": "Atom is one of my favourite code Editors that I was using it in Starting Journey, It have a lot of features that will speed your work.",
-      "offecialUrl": "https://atom.io/"
+      "offecialUrl": "https://atom.io/",
+      "tags": ["programms"]
     }
   ]
 }

@@ -8,6 +8,7 @@ import Programms from "../common/Programms";
 import Sidebar from "../common/Sidebar";
 import Card from "../common/Card";
 import frontendDB from "../../db/frontend.json";
+import NotFound from "../error/NotFound";
 
 //* Frontend JSX
 function Frontend() {
@@ -32,6 +33,7 @@ function Frontend() {
           path="programms"
           element={<Programms programms={frontendDB.programms} />}
         />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );

@@ -6,98 +6,112 @@
       "name": "Prettier",
       "description": "Prettier is a Code Formatter that help you to organize your code,and it Support a lot of Programming Languages.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
-      "offecialUrl": "https://prettier.io/"
+      "offecialUrl": "https://prettier.io/",
+      "tags": ["vscode"]
     },
     {
       "id": 1,
       "modalId": "better-comments",
       "name": "Better Comments",
       "description": "Better comments is nice VS Code Extension that allow you to Write Nice and beautifull comments.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments",
+      "tags": ["vscode"]
     },
     {
       "id": 2,
       "modalId": "indent-rainbow",
       "name": "Indent Rainbow",
       "description": "If you work with a lot of lines of code, you may make a mistake like forget opening and closing tags or other mistakes, But with this extansion you will not make this mistake again.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow",
+      "tags": ["vscode"]
     },
     {
       "id": 3,
       "modalId": "jest",
       "name": "JEST",
       "description": "If You use JEST Framework in Your Testing Process, This is nice extension for You, Jest EXtension giev you testing result withour run testing task in yoru Terminal.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest",
+      "tags": ["vscode"]
     },
     {
       "id": 4,
       "modalId": "material-icon-theme",
       "name": "Material Icon Theme",
       "description": "Nice Extension that give You nice and beatiful files icons, like javascript, python...etc, Material Icon Theme Extension supports Folders Icon too.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme",
+      "tags": ["vscode", "theme"]
     },
     {
       "id": 5,
       "modalId": "path-intellisense",
       "name": "Path Intellisense",
       "description": "Excellent Extension that help you to handle paths in your imports, Autocomplete Filenames and more",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense",
+      "tags": ["vscode"]
     },
     {
       "id": 6,
       "modalId": "turbo-console-log",
       "name": "Turbo Console Log",
       "description": "This Extension help you when you want to log some data in Console, It log data in console with some extra information like line, variable's name and more.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log",
+      "tags": ["vscode"]
     },
     {
       "id": 7,
       "modalId": "tokyo-night",
       "name": "Tokyo Night",
       "description": "Nice Theme that I start Using in VS Code Editor, It have nice colors and other Features.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night",
+      "tags": ["vscode", "theme"]
     },
     {
       "id": 8,
       "modalId": "snapcode",
       "name": "Snapcode",
       "description": "Nice Extension that help you to take beatiful snapshot to specific piece of code.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=moyu.snapcode"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=moyu.snapcode",
+      "tags": ["vscode"]
     },
     {
       "id": 9,
       "modalId": "rainbow-tags",
       "name": "Rainbow Tags",
       "description": "Nice VS Code Extension that colorize HTML Tags, which help you to know start and end of the Tag.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=moyu.snapcode"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=moyu.snapcode",
+      "tags": ["vscode"]
     },
     {
       "id": 10,
       "modalId": "dotenv",
       "name": "DotENV",
       "description": "DotENV Extension give a nice colors to yor environment variables, Which maek your development is more easier.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv",
+      "tags": ["vscode", "nodejs"]
     },
     {
       "id": 11,
       "modalId": "ayu",
       "name": "Ayu",
       "description": "A nother Nice Theme for VS Code Editor that give you a Professional SHapeand Colors.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=teabyii.ayu"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=teabyii.ayu",
+      "tags": ["vscode", "themes"]
     },
     {
       "id": 12,
       "modalId": "headwind",
       "name": "Headwind",
       "description": "The Big Problem in Tailwind CSS is that you may write a lot of classes and that make you to forget to oganize these classes, Headwind came to solve this problem, It ReArrange all Tailwind classes when you save the file.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=heybourn.headwind"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=heybourn.headwind",
+      "tags": ["vscode", "tailwindcss"]
     },
     {
       "id": 13,
       "modalId": "git-lens",
       "name": "Git Lens",
       "description": "Nice Extension that give you ability to handle your repos graphically and by easy way.",
-      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
+      "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
+      "tags": ["vscode", "git", "github"]
     }
   ],
   "packages": [
@@ -108,7 +122,8 @@
       "description": "Axios is the most library that used in fetching data from APIs process, is has a lot of features and properties that ease fetching process.",
       "npmUrl": "https://www.npmjs.com/package/axios",
       "offecialUrl": "https://axios-http.com/",
-      "installCommand": "npm i axios"
+      "installCommand": "npm i axios",
+      "tags": ["npm", "json"]
     },
     {
       "id": 1,
@@ -117,7 +132,8 @@
       "description": "This Library you must use it, It is Great Library that have a lot of functions that will ease your work with javascript..",
       "npmUrl": "https://www.npmjs.com/package/lodash",
       "offecialUrl": "https://lodash.com/",
-      "installCommand": "npm i lodash"
+      "installCommand": "npm i lodash",
+      "tags": ["npm", "javascript"]
     },
     {
       "id": 2,
@@ -126,7 +142,8 @@
       "description": "Yargs helps you build interactive command line tools, by parsing arguments and generating an elegant user interface.",
       "npmUrl": "https://www.npmjs.com/package/yargs",
       "offecialUrl": "http://yargs.js.org/",
-      "installCommand": "npm i yargs"
+      "installCommand": "npm i yargs",
+      "tags": ["npm", "nodejs"]
     },
     {
       "id": 3,
@@ -134,7 +151,8 @@
       "name": "Multer",
       "description": "The Most popular Library that will help you in File upload handling, You can use it in some easy steps in You project.",
       "npmUrl": "https://www.npmjs.com/package/multer",
-      "installCommand": "npm i multer"
+      "installCommand": "npm i multer",
+      "tags": ["npm", "nodejs"]
     },
     {
       "id": 4,
@@ -143,7 +161,8 @@
       "description": "Telegraf is a NPM package that give you ability to make telegram bot, It have tens of features that will give you ability to make your great telegram bot.",
       "npmUrl": "https://www.npmjs.com/package/telegraf",
       "offecialUrl": "https://telegraf.js.org/",
-      "installCommand": "npm i telegraf"
+      "installCommand": "npm i telegraf",
+      "tags": ["npm", "nodejs", "telegram"]
     },
     {
       "id": 5,
@@ -151,7 +170,8 @@
       "name": "Nightmare",
       "description": "Great NPM library that you can use it in you web scraping work, It have a nice features that will give you what you need.",
       "npmUrl": "https://www.npmjs.com/package/nightmare",
-      "installCommand": "npm i nightmare"
+      "installCommand": "npm i nightmare",
+      "tags": ["npm", "nodejs"]
     },
     {
       "id": 6,
@@ -159,7 +179,8 @@
       "name": "bcrypt",
       "description": "Nice Pckage that used in Authuntication and Authorization process, It used to hash password which give your application more security layer.",
       "npmUrl": "https://www.npmjs.com/package/bcrypt",
-      "installCommand": "npm i bcrypt"
+      "installCommand": "npm i bcrypt",
+      "tags": ["npm", "nodejs"]
     },
     {
       "id": 7,
@@ -167,7 +188,8 @@
       "name": "Short ID",
       "description": "Great NPM Package that make short and random text to use it in your projects, You can use it in URL Shortner Application for Example.",
       "npmUrl": "https://www.npmjs.com/package/shortid",
-      "installCommand": "npm i shortid"
+      "installCommand": "npm i shortid",
+      "tags": ["npm", "nodejs"]
     },
     {
       "id": 8,
@@ -175,7 +197,8 @@
       "name": "Image Downloader",
       "description": "Nice package that you can use it in to download images from web, It have easy way to implement in your Application.",
       "npmUrl": "https://www.npmjs.com/package/image-downloader",
-      "installCommand": "npm i image-downloader"
+      "installCommand": "npm i image-downloader",
+      "tags": ["npm"]
     },
     {
       "id": 9,
@@ -183,7 +206,8 @@
       "name": "CORS",
       "description": "One of the most popular problem in api calling from a nother origin is CORS problem, By this package you can control in origins that can make requests to your websites.",
       "npmUrl": "https://www.npmjs.com/package/cors",
-      "installCommand": "npm i cors"
+      "installCommand": "npm i cors",
+      "tags": ["npm", "nodejs", "cors"]
     },
     {
       "id": 10,
@@ -191,7 +215,8 @@
       "name": "Json Web Token",
       "description": "One of the most popular pacjage that used to implement Authuntication and Authorization process in web Applications.",
       "npmUrl": "https://www.npmjs.com/package/jsonwebtoken",
-      "installCommand": "npm i jsonwebtoken"
+      "installCommand": "npm i jsonwebtoken",
+      "tags": ["npm", "nodejs"]
     },
     {
       "id": 11,
@@ -199,7 +224,8 @@
       "name": "Chalk",
       "description": "Nice NPM Package that help you to edit Terminal text styles like changing text background ot text colors.",
       "npmUrl": "https://www.npmjs.com/package/chalk",
-      "installCommand": "npm i chalk"
+      "installCommand": "npm i chalk",
+      "tags": ["npm", "nodejs", "terminal"]
     },
     {
       "id": 12,
@@ -207,7 +233,8 @@
       "name": "Validator",
       "description": "A library of string validators and sanitizers, It have a lot of valitor schemas like email, password, ...etc.",
       "npmUrl": "https://www.npmjs.com/package/validator",
-      "installCommand": "npm i validator"
+      "installCommand": "npm i validator",
+      "tags": ["npm"]
     }
   ],
   "websites": [],
@@ -217,28 +244,32 @@
       "modalId": "roboto-3t",
       "name": "Roboto 3T",
       "description": "Robot 3T is an nice Programm that help You to manage MongoDB local databases on Your machine which ease DB's Manage Process.",
-      "offecialUrl": "https://robomongo.org/"
+      "offecialUrl": "https://robomongo.org/",
+      "tags": ["programms", "mongodb"]
     },
     {
       "id": 0,
       "modalId": "vscode",
       "name": "VS Code",
       "description": "The most populer code editor that every developer should used it at least once, It have all features that speed your development process.",
-      "offecialUrl": "https://code.visualstudio.com/"
+      "offecialUrl": "https://code.visualstudio.com/",
+      "tags": ["programms", "vscode"]
     },
     {
       "id": 1,
       "modalId": "sublime-text",
       "name": "Sublime Text",
       "description": "Another nice Code Editor that have nice and great features that will help you in your work as a Programmer.",
-      "offecialUrl": "https://www.sublimetext.com/"
+      "offecialUrl": "https://www.sublimetext.com/",
+      "tags": ["programms"]
     },
     {
       "id": 2,
       "modalId": "atom",
       "name": "Atom",
       "description": "Atom is one of my favourite code Editors that I was using it in Starting Journey, It have a lot of features that will speed your work.",
-      "offecialUrl": "https://atom.io/"
+      "offecialUrl": "https://atom.io/",
+      "tags": ["programms"]
     }
   ]
 }

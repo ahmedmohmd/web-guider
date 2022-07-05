@@ -17,7 +17,7 @@ function Modal({ modalInfo, urls, modalId, npmInstallCommand }) {
             <h3 class="text-2xl font-bold text-slate-600">{modalInfo.title}</h3>
             <button
               type="button"
-              class="hs-dropdown-toggle inline-flex flex-shrink-0 justify-center items-center h-8 w-8 rounded-md text-red-500 hover:bg-red-100  focus:outline-none focus:ring-2 focus:ring-red-400/70 focus:ring-offset-2 focus:ring-offset-white transition-all text-sm "
+              class="hs-dropdown-toggle inline-flex flex-shrink-0 justify-center items-center h-8 w-8 rounded-md text-red-500 hover:bg-red-100 duration-300 transition-all text-sm"
               data-hs-modal={`#${modalId}`}
             >
               <span class="sr-only">Close</span>

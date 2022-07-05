@@ -16,26 +16,29 @@ function Wesbites({ websites }) {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-          {websites.map(({ id, modalId, name, description, offecialUrl }) => {
-            return (
-              <Card
-                key={id}
-                modalId={modalId}
-                cardInfo={{
-                  title: name,
-                  subtitle: "Websites",
-                  description: description,
-                }}
-                trackColors={{
-                  headingBgColor: "bg-[#ffcfac]",
-                  buttonColor: "text-[#eb906d]",
-                  buttonBgColor: "hover:bg-[#fcf1e9]",
-                }}
-                urls={{ offecialUrl }}
-              />
-            );
-          })}
+        <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3">
+          {websites.map(
+            ({ id, modalId, name, description, offecialUrl, tags }) => {
+              return (
+                <Card
+                  key={id}
+                  modalId={modalId}
+                  cardInfo={{
+                    title: name,
+                    subtitle: "Websites",
+                    description: description,
+                    tags,
+                  }}
+                  trackColors={{
+                    headingBgColor: "bg-[#ffcfac]",
+                    buttonColor: "text-[#eb906d]",
+                    buttonBgColor: "hover:bg-[#fcf1e9]",
+                  }}
+                  urls={{ offecialUrl }}
+                />
+              );
+            }
+          )}
         </div>
       )}
     </div>

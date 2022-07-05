@@ -16,9 +16,17 @@ function Vscode({ vscode }) {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3">
           {vscode.map(
-            ({ id, modalId, name, description, offecialUrl, vscodeUrl }) => {
+            ({
+              id,
+              modalId,
+              name,
+              description,
+              offecialUrl,
+              vscodeUrl,
+              tags,
+            }) => {
               return (
                 <Card
                   key={id}
@@ -27,6 +35,7 @@ function Vscode({ vscode }) {
                     title: name,
                     subtitle: "Vscode Extensions",
                     description: description,
+                    tags,
                   }}
                   trackColors={{
                     headingBgColor: "bg-[#a9e3ff]",

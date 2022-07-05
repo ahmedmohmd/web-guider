@@ -37,7 +37,7 @@ function NavBar() {
                 className="w-10 h-10"
                 alt="Website Logo"
               />
-              <span className="w-36 text-slate-200">Web Guider</span>
+              <span className="w-36 text-slate-100">Web Guider</span>
             </Link>
             <div className="sm:hidden">
               <button
@@ -86,12 +86,12 @@ function NavBar() {
                 Home
               </NavLink>
 
-              <NavLink
+              {/* <NavLink
                 className="p-3 duration-300 rounded-xl hover:bg-violet-400/80"
                 to={"/About"}
               >
                 About
-              </NavLink>
+              </NavLink> */}
               <div class="hs-mega-menu flex justify-center items-center flex-col gap-2 w-full lg:w-auto">
                 <button
                   id="hs-mega-menu-basic-dr"

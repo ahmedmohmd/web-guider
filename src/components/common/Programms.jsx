@@ -16,28 +16,31 @@ function Programms({ programms }) {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
-          {programms.map(({ id, modalId, name, description, offecialUrl }) => {
-            return (
-              <Card
-                key={id}
-                modalId={modalId}
-                cardInfo={{
-                  title: name,
-                  subtitle: "Programms",
-                  description: description,
-                }}
-                trackColors={{
-                  headingBgColor: "bg-[#80dddf]",
-                  buttonColor: "text-[#4e97b6]",
-                  buttonBgColor: "hover:bg-[#e9fafe]",
-                }}
-                urls={{
-                  offecialUrl,
-                }}
-              />
-            );
-          })}
+        <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3">
+          {programms.map(
+            ({ id, modalId, name, description, offecialUrl, tags }) => {
+              return (
+                <Card
+                  key={id}
+                  modalId={modalId}
+                  cardInfo={{
+                    title: name,
+                    subtitle: "Programms",
+                    description: description,
+                    tags,
+                  }}
+                  trackColors={{
+                    headingBgColor: "bg-[#80dddf]",
+                    buttonColor: "text-[#4e97b6]",
+                    buttonBgColor: "hover:bg-[#e9fafe]",
+                  }}
+                  urls={{
+                    offecialUrl,
+                  }}
+                />
+              );
+            }
+          )}
         </div>
       )}
     </div>
