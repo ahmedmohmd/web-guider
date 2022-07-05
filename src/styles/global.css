@@ -24,3 +24,8 @@ a:active {
   -ms-user-select: none;
   user-select: none;
 }
+
+button,
+a {
+  outline: none;
+}

@@ -213,7 +213,7 @@
     {
       "id": 10,
       "modalId": "qrcode.react",
-      "name": "Qrcode React",
+      "name": "QR Code React",
       "description": "Nice Package that used to Create QR Code, It's usage is very simple but have a great benefit.",
       "npmUrl": "https://www.npmjs.com/package/qrcode.react",
       "installCommand": "npm i qrcode.react"
@@ -225,6 +225,59 @@
       "description": "One of my favourite package that use in this project it give you ability to add code blocks in frontend applications, It support a lot of languages and tens of great themes that make your project looks good.",
       "npmUrl": "https://www.npmjs.com/package/react-syntax-highlighter",
       "installCommand": "npm i react-syntax-highlighter"
+    },
+    {
+      "id": 12,
+      "modalId": "framer-motion",
+      "name": "Framer Motion",
+      "description": "Nice Library that help you to implement advanced animations in your website, So if you dealing a lot with animations you should use it to ease you work.",
+      "npmUrl": "https://www.npmjs.com/package/framer-motion",
+      "offecialUrl": "https://www.framer.com/motion/",
+      "installCommand": "npm i framer-motion"
+    },
+    {
+      "id": 13,
+      "modalId": "react-typed",
+      "name": "React Typed",
+      "description": "Creat NPM Package that will help you to add Typing Writer Effect, which will add nice feature to your website.",
+      "npmUrl": "https://www.npmjs.com/package/react-typed",
+      "installCommand": "npm i react-typed"
+    },
+    {
+      "id": 14,
+      "modalId": "styled-components",
+      "name": "Styled Components",
+      "description": "The best package in my opinion to implement css in js that you can use it in your frontend application.",
+      "npmUrl": "https://www.npmjs.com/package/styled-components",
+      "offecialUrl": "https://styled-components.com/",
+      "installCommand": "npm i styled-components"
+    },
+    {
+      "id": 15,
+      "modalId": "chart-js-2",
+      "name": "Chart JS 2",
+      "description": "Nice npm package that will ease your work with chartjs library if you use React JS.",
+      "npmUrl": "https://www.npmjs.com/package/react-chartjs-2",
+      "offecialUrl": "https://react-chartjs-2.js.org/",
+      "installCommand": "npm i react-chartjs-2"
+    },
+    {
+      "id": 16,
+      "modalId": "howler",
+      "name": "Howler",
+      "description": "Great library that will help you in if you dealing with Audio in your Applications, It have great features and methods that ease Audio handling Process.",
+      "npmUrl": "https://www.npmjs.com/package/howler",
+      "offecialUrl": "https://howlerjs.com/",
+      "installCommand": "npm i howler"
+    },
+    {
+      "id": 17,
+      "modalId": "lodash",
+      "name": "Lodash",
+      "description": "This Library you must use it, It is Great Library that have a lot of functions that will ease your work with javascript..",
+      "npmUrl": "https://www.npmjs.com/package/lodash",
+      "offecialUrl": "https://lodash.com/",
+      "installCommand": "npm i lodash"
     }
   ],
   "websites": [
@@ -232,9 +285,59 @@
       "id": 0,
       "modalId": "fancy-border-radius-generator",
       "name": "Fancy Border Rdaius Generator",
-      "description": "Awesome website to Create any CSS Border Radius shape shape by Easy way.",
-      "offecialUrl": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+      "description": "Awesome website to Create any CSS Border Radius shapes by Easy way, WHich will speed your development process.",
+      "offecialUrl": "https://9elements.github.io/fancy-border-radius/"
+    },
+    {
+      "id": 1,
+      "modalId": "hero-icons",
+      "name": "Heroicon",
+      "description": "Nice website that will give you beatiful icons as svg format to implement in your application without installing libraries like Fontawesome.",
+      "offecialUrl": "https://heroicons.com/"
+    },
+    {
+      "id": 2,
+      "modalId": "css-gradient-generator",
+      "name": "CSS Gradient Generator",
+      "description": "Great Website that help you to make CSS gradients by easy way, which speed your development process.",
+      "offecialUrl": "https://cssgradient.io/"
+    },
+    {
+      "id": 3,
+      "modalId": "browser-frame",
+      "name": "Browser Frame",
+      "description": "Nice website that help you to put your Images in nice frames like Chrome, Safari and Mozilla Browsers and with different themes Like Dark and Light Theme.",
+      "offecialUrl": "https://browserframe.com/"
+    },
+    {
+      "id": 4,
+      "modalId": "getwaves",
+      "name": "Getwaves",
+      "description": "Getwaves is great website that will give you svg wave and with different shapes to implement it in your website.",
+      "offecialUrl": "https://getwaves.io/"
     }
   ],
-  "programms": []
+  "programms": [
+    {
+      "id": 0,
+      "modalId": "vscode",
+      "name": "VS Code",
+      "description": "The most populer code editor that every developer should used it at least once, It have all features that speed your development process.",
+      "offecialUrl": "https://code.visualstudio.com/"
+    },
+    {
+      "id": 1,
+      "modalId": "sublime-text",
+      "name": "Sublime Text",
+      "description": "Another nice Code Editor that have nice and great features that will help you in your work as a Programmer.",
+      "offecialUrl": "https://www.sublimetext.com/"
+    },
+    {
+      "id": 2,
+      "modalId": "atom",
+      "name": "Atom",
+      "description": "Atom is one of my favourite code Editors that I was using it in Starting Journey, It have a lot of features that will speed your work.",
+      "offecialUrl": "https://atom.io/"
+    }
+  ]
 }

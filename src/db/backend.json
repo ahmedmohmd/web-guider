@@ -109,6 +109,105 @@
       "npmUrl": "https://www.npmjs.com/package/axios",
       "offecialUrl": "https://axios-http.com/",
       "installCommand": "npm i axios"
+    },
+    {
+      "id": 1,
+      "modalId": "lodash",
+      "name": "Lodash",
+      "description": "This Library you must use it, It is Great Library that have a lot of functions that will ease your work with javascript..",
+      "npmUrl": "https://www.npmjs.com/package/lodash",
+      "offecialUrl": "https://lodash.com/",
+      "installCommand": "npm i lodash"
+    },
+    {
+      "id": 2,
+      "modalId": "yargs",
+      "name": "Yargs",
+      "description": "Yargs helps you build interactive command line tools, by parsing arguments and generating an elegant user interface.",
+      "npmUrl": "https://www.npmjs.com/package/yargs",
+      "offecialUrl": "http://yargs.js.org/",
+      "installCommand": "npm i yargs"
+    },
+    {
+      "id": 3,
+      "modalId": "multer",
+      "name": "Multer",
+      "description": "The Most popular Library that will help you in File upload handling, You can use it in some easy steps in You project.",
+      "npmUrl": "https://www.npmjs.com/package/multer",
+      "installCommand": "npm i multer"
+    },
+    {
+      "id": 4,
+      "modalId": "telegraf",
+      "name": "Telegraf",
+      "description": "Telegraf is a NPM package that give you ability to make telegram bot, It have tens of features that will give you ability to make your great telegram bot.",
+      "npmUrl": "https://www.npmjs.com/package/telegraf",
+      "offecialUrl": "https://telegraf.js.org/",
+      "installCommand": "npm i telegraf"
+    },
+    {
+      "id": 5,
+      "modalId": "nightmare",
+      "name": "Telegraf",
+      "description": "Great NPM library that you can use it in you web scraping work, It have a nice features that will give you what you need.",
+      "npmUrl": "https://www.npmjs.com/package/nightmare",
+      "installCommand": "npm i nightmare"
+    },
+    {
+      "id": 6,
+      "modalId": "bcrypt",
+      "name": "bcrypt",
+      "description": "Nice Pckage that used in Authuntication and Authorization process, It used to hash password which give your application more security layer.",
+      "npmUrl": "https://www.npmjs.com/package/bcrypt",
+      "installCommand": "npm i bcrypt"
+    },
+    {
+      "id": 7,
+      "modalId": "shortid",
+      "name": "Short ID",
+      "description": "Great NPM Package that make short and random text to use it in your projects, You can use it in URL Shortner Application for Example.",
+      "npmUrl": "https://www.npmjs.com/package/shortid",
+      "installCommand": "npm i shortid"
+    },
+    {
+      "id": 8,
+      "modalId": "image-downloader",
+      "name": "Image Downloader",
+      "description": "Nice package that you can use it in to download images from web, It have easy way to implement in your Application.",
+      "npmUrl": "https://www.npmjs.com/package/image-downloader",
+      "installCommand": "npm i image-downloader"
+    },
+    {
+      "id": 9,
+      "modalId": "cors",
+      "name": "CORS",
+      "description": "One of the most popular problem in api calling from a nother origin is CORS problem, By this package you can control in origins that can make requests to your websites.",
+      "npmUrl": "https://www.npmjs.com/package/cors",
+      "installCommand": "npm i cors"
+    },
+    {
+      "id": 10,
+      "modalId": "jsonwebtoken",
+      "name": "Json Web Token",
+      "description": "One of the most popular pacjage that used to implement Authuntication and Authorization process in web Applications.",
+      "npmUrl": "https://www.npmjs.com/package/jsonwebtoken",
+      "installCommand": "npm i jsonwebtoken"
+    },
+    {
+      "id": 11,
+      "modalId": "chalk",
+      "name": "Chalk",
+      "description": "Nice NPM Package that help you to edit Terminal text styles like changing text background ot text colors.",
+      "npmUrl": "https://www.npmjs.com/package/chalk",
+      "installCommand": "npm i chalk"
+    },
+    {
+      "id": 12,
+      "modalId": "validator",
+      "name": "Validator",
+      "description": "A library of string validators and sanitizers, It have a lot of valitor schemas like email, password, ...etc.",
+      "npmUrl": "https://www.npmjs.com/package/validator",
+      "installCommand": "npm i validator"
     }
   ],
   "websites": [],
@@ -119,6 +218,27 @@
       "name": "Roboto 3T",
       "description": "Robot 3T is an nice Programm that help You to manage MongoDB local databases on Your machine which ease DB's Manage Process.",
       "offecialUrl": "https://robomongo.org/"
+    },
+    {
+      "id": 0,
+      "modalId": "vscode",
+      "name": "VS Code",
+      "description": "The most populer code editor that every developer should used it at least once, It have all features that speed your development process.",
+      "offecialUrl": "https://code.visualstudio.com/"
+    },
+    {
+      "id": 1,
+      "modalId": "sublime-text",
+      "name": "Sublime Text",
+      "description": "Another nice Code Editor that have nice and great features that will help you in your work as a Programmer.",
+      "offecialUrl": "https://www.sublimetext.com/"
+    },
+    {
+      "id": 2,
+      "modalId": "atom",
+      "name": "Atom",
+      "description": "Atom is one of my favourite code Editors that I was using it in Starting Journey, It have a lot of features that will speed your work.",
+      "offecialUrl": "https://atom.io/"
     }
   ]
 }
