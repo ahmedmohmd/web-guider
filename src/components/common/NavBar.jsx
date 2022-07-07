@@ -80,14 +80,14 @@ function NavBar() {
           >
             <div className="flex flex-col gap-5 mt-5 font-semibold text-center text-white text-md sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
               <NavLink
-                className="p-3 duration-300 rounded-xl hover:bg-violet-400/80"
+                className="p-3 duration-300 rounded-xl hover:bg-violet-400/50"
                 to={"/"}
               >
                 Home
               </NavLink>
 
               {/* <NavLink
-                className="p-3 duration-300 rounded-xl hover:bg-violet-400/80"
+                className="p-3 duration-300 rounded-xl hover:bg-violet-400/50"
                 to={"/About"}
               >
                 About
@@ -99,9 +99,9 @@ function NavBar() {
                 <button
                   id="hs-dropdown-hover-event"
                   type="button"
-                  className="inline-flex items-center justify-center w-full gap-2 p-3 text-sm font-semibold align-middle transition-all rounded-md shadow-sm rounded-xl hs-dropdown-toggle hover:bg-violet-400/80"
+                  className="inline-flex items-center justify-center w-full gap-2 p-3 text-sm font-semibold align-middle transition-all rounded-md shadow-sm rounded-xl hs-dropdown-toggle hover:bg-violet-400/50"
                 >
-                  Actions
+                  Tracks
                   <svg
                     className="hs-dropdown-open:rotate-180 w-2.5 h-2.5 text-white"
                     width="16"
@@ -119,55 +119,23 @@ function NavBar() {
                   </svg>
                 </button>
                 <div
-                  className="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 flex justify-center items-center flex-col hs-mega-menu-content hs-mega-menu-open:opacity-100 opacity-0 top-full translate-y-1 gap-3 hidden z-10 rounded-xl before:absolute before:-top-5 before:left-0 before:w-full before:h-5 w-full bg-violet-400/60 sm:bg-violet-500/80 p-3 sm:w-48 sm:transition-all sm:absolute sm:shadow-md sm:duration-300"
+                  className="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 flex justify-center items-center flex-col hs-mega-menu-content hs-mega-menu-open:opacity-100 opacity-0 top-full translate-y-1 gap-3 hidden z-10 rounded-xl before:absolute before:-top-5 before:left-0 before:w-full before:h-5 w-full bg-violet-400/50 sm:bg-violet-500/90 p-3 sm:w-48 sm:transition-all sm:absolute sm:shadow-md sm:duration-300"
                   aria-labelledby="hs-dropdown-hover-event"
                 >
                   <NavLink
-                    className="w-full p-3 duration-300 rounded-xl hover:bg-violet-400/80"
+                    className="w-full p-3 duration-300 rounded-xl hover:bg-violet-300/50 lg:hover:bg-violet-400/50"
                     to={"/frontend"}
                   >
                     Frontend
                   </NavLink>
                   <NavLink
-                    className="w-full p-3 duration-300 rounded-xl hover:bg-violet-400/80"
+                    className="w-full p-3 duration-300 rounded-xl hover:bg-violet-300/50 lg:hover:bg-violet-400/50"
                     to={"/backend"}
                   >
                     Backend
                   </NavLink>
                 </div>
               </div>
-              {/* <div
-                data-hs-dropdown-trigger="hover"
-                className="flex flex-col items-center justify-center w-full gap-2 hs-mega-menu lg:w-auto"
-              >
-                <button
-                  id="hs-dropdown-hover-event"
-                  type="button"
-                  className="flex items-center justify-center gap-1 font-semibold text-center text-white text-md hs-mega-menu-toggle"
-                >
-                  <span className="text-md">Track</span>{" "}
-                  <IoMdArrowDropdown className="text-xl text-white" />
-                </button>
-
-                <div
-                  className="flex justify-center items-center flex-col hs-mega-menu-content hs-mega-menu-open:opacity-100 opacity-0 top-full translate-y-1 gap-3 hidden z-10 rounded-lg before:absolute before:-top-5 before:left-0 before:w-full before:h-5 w-full bg-violet-400/60 lg:bg-violet-500/80 p-3 sm:w-48 sm:transition-all transition-[opacity,margin] sm:absolute sm:shadow-md sm:duration-300 dark:bg-gray-800"
-                  aria-labelledby="hs-mega-menu-basic-dr"
-                >
-                  <NavLink
-                    className="w-full p-3 duration-300 rounded-xl hover:bg-violet-400/80"
-                    to={"/frontend"}
-                  >
-                    Frontend
-                  </NavLink>
-                  <NavLink
-                    className="w-full p-3 duration-300 rounded-xl hover:bg-violet-400/80"
-                    to={"/backend"}
-                  >
-                    Backend
-                  </NavLink>
-                </div>
-              </div> */}
-
               <a
                 href="https://github.com/ahmedmohmd/web-guider/tree/main"
                 target="_blank"
