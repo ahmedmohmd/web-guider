@@ -173,7 +173,7 @@ function NavBar() {
                 target="_blank"
                 className="flex items-center justify-center pt-3 border-t-2 sm:pt-0 sm:pl-3 sm:border-l-2 sm:border-t-0 border-slate-200/50"
               >
-                <div className="p-3 rounded-full hover:bg-violet-400/50">
+                <div className="p-3 duration-300 rounded-full hover:bg-violet-400/50">
                   <BsGithub className="text-3xl" />
                 </div>
               </a>
