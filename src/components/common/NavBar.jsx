@@ -92,18 +92,18 @@ function NavBar() {
               >
                 About
               </NavLink> */}
-              <div class="hs-mega-menu flex justify-center items-center flex-col gap-2 w-full lg:w-auto">
+              <div className="flex flex-col items-center justify-center w-full gap-2 hs-mega-menu lg:w-auto">
                 <button
                   id="hs-mega-menu-basic-dr"
                   type="button"
-                  class="gap-1 text-white font-semibold text-md  text-center hs-mega-menu-toggle  flex items-center justify-center"
+                  className="flex items-center justify-center gap-1 font-semibold text-center text-white text-md hs-mega-menu-toggle"
                 >
                   <span className="text-md">Track</span>{" "}
                   <IoMdArrowDropdown className="text-xl text-white" />
                 </button>
 
                 <div
-                  class="flex justify-center items-center flex-col hs-mega-menu-content hs-mega-menu-open:opacity-100 opacity-0 top-full translate-y-1 gap-3 hidden z-10 rounded-lg before:absolute before:-top-5 before:left-0 before:w-full before:h-5 w-full bg-violet-400/60 lg:bg-violet-500/80 p-3 sm:w-48 sm:transition-all transition-[opacity,margin] sm:absolute sm:shadow-md sm:duration-300 dark:bg-gray-800"
+                  className="flex justify-center items-center flex-col hs-mega-menu-content hs-mega-menu-open:opacity-100 opacity-0 top-full translate-y-1 gap-3 hidden z-10 rounded-lg before:absolute before:-top-5 before:left-0 before:w-full before:h-5 w-full bg-violet-400/60 lg:bg-violet-500/80 p-3 sm:w-48 sm:transition-all transition-[opacity,margin] sm:absolute sm:shadow-md sm:duration-300 dark:bg-gray-800"
                   aria-labelledby="hs-mega-menu-basic-dr"
                 >
                   <NavLink

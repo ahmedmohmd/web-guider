@@ -7,7 +7,7 @@
       "description": "Prettier is a Code Formatter that help you to organize your code,and it Support a lot of Programming Languages.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode",
       "offecialUrl": "https://prettier.io/",
-      "tags": ["formatters"]
+      "tags": ["vscode", "formatters"]
     },
     {
       "id": 1,
@@ -39,7 +39,7 @@
       "name": "JEST",
       "description": "If You use JEST Framework in Your Testing Process, This is nice extension for You, Jest EXtension giev you testing result withour run testing task in yoru Terminal.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest",
-      "tags": ["testing"]
+      "tags": ["jest"]
     },
     {
       "id": 5,
@@ -55,7 +55,7 @@
       "name": "Material Icon Theme",
       "description": "Nice Extension that give You nice and beatiful files icons, like javascript, python...etc, Material Icon Theme Extension supports Folders Icon too.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme",
-      "tags": ["themes"]
+      "tags": ["vscode", "themes"]
     },
     {
       "id": 7,
@@ -95,7 +95,7 @@
       "name": "Tokyo Night",
       "description": "Nice Theme that I start Using in VS Code Editor, It have nice colors and other Features.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night",
-      "tags": ["themes"]
+      "tags": ["vscode", "themes"]
     },
     {
       "id": 12,
@@ -119,7 +119,7 @@
       "name": "Ayu",
       "description": "A nother Nice Theme for VS Code Editor that give you a Professional SHapeand Colors.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=teabyii.ayu",
-      "tags": ["themes"]
+      "tags": ["vscode", "themes"]
     },
     {
       "id": 15,
@@ -147,7 +147,7 @@
       "npmUrl": "https://www.npmjs.com/package/joi",
       "offecialUrl": "https://joi.dev/api/?v=17.6.0",
       "installCommand": "npm i joi",
-      "tags": ["validation"]
+      "tags": ["javascript", "forms"]
     },
     {
       "id": 1,
@@ -157,7 +157,7 @@
       "npmUrl": "https://www.npmjs.com/package/swr",
       "offecialUrl": "https://swr.vercel.app/",
       "installCommand": "npm i swr",
-      "tags": ["fetching", "api"]
+      "tags": ["reactjs", "hooks"]
     },
     {
       "id": 2,
@@ -176,7 +176,7 @@
       "npmUrl": "https://www.npmjs.com/package/axios",
       "offecialUrl": "https://axios-http.com/",
       "installCommand": "npm i axios",
-      "tags": ["json", "fetching"]
+      "tags": ["json", "api"]
     },
     {
       "id": 4,
@@ -186,7 +186,7 @@
       "npmUrl": "https://www.npmjs.com/package/sweetalert",
       "offecialUrl": "https://sweetalert.js.org/",
       "installCommand": "npm i sweetalert",
-      "tags": ["npm"]
+      "tags": ["javascript", "css"]
     },
     {
       "id": 5,
@@ -196,7 +196,7 @@
       "npmUrl": "https://www.npmjs.com/package/react-toastify",
       "offecialUrl": "https://fkhadra.github.io/react-toastify/introduction/",
       "installCommand": "npm i react-toastify",
-      "tags": ["react"]
+      "tags": ["reactjs"]
     },
     {
       "id": 6,
@@ -206,7 +206,7 @@
       "npmUrl": "https://www.npmjs.com/package/formik",
       "offecialUrl": "https://formik.org/",
       "installCommand": "npm install formik --save",
-      "tags": ["forms", "forms"]
+      "tags": ["reactjs", "forms"]
     },
     {
       "id": 7,
@@ -216,7 +216,7 @@
       "npmUrl": "https://www.npmjs.com/package/react-hook-form",
       "offecialUrl": "https://react-hook-form.com/advanced-usage/",
       "installCommand": "npm i react-hook-form",
-      "tags": ["react", "forms"]
+      "tags": ["reactjs", "forms"]
     },
     {
       "id": 8,
@@ -226,7 +226,7 @@
       "npmUrl": "https://www.npmjs.com/package/chart.js?activeTab=readme",
       "offecialUrl": "https://www.chartjs.org/",
       "installCommand": "npm i chart.js",
-      "tags": ["charts", "javascript"]
+      "tags": ["javascript"]
     },
     {
       "id": 9,
@@ -235,7 +235,7 @@
       "description": "Nice Package that used to read QR Code, It's usage is very simple but have a great benefit.",
       "npmUrl": "https://www.npmjs.com/package/react-qr-reader",
       "installCommand": "npm i react-qr-reader",
-      "tags": ["react"]
+      "tags": ["reactjs"]
     },
     {
       "id": 10,
@@ -244,7 +244,7 @@
       "description": "Nice Package that used to Create QR Code, It's usage is very simple but have a great benefit.",
       "npmUrl": "https://www.npmjs.com/package/qrcode.react",
       "installCommand": "npm i qrcode.react",
-      "tags": ["react"]
+      "tags": ["reactjs"]
     },
     {
       "id": 11,
@@ -253,7 +253,7 @@
       "description": "One of my favourite package that use in this project it give you ability to add code blocks in frontend applications, It support a lot of languages and tens of great themes that make your project looks good.",
       "npmUrl": "https://www.npmjs.com/package/react-syntax-highlighter",
       "installCommand": "npm i react-syntax-highlighter",
-      "tags": ["react"]
+      "tags": ["reactjs"]
     },
     {
       "id": 12,
@@ -263,7 +263,7 @@
       "npmUrl": "https://www.npmjs.com/package/framer-motion",
       "offecialUrl": "https://www.framer.com/motion/",
       "installCommand": "npm i framer-motion",
-      "tags": ["react"]
+      "tags": ["reactjs", "animation"]
     },
     {
       "id": 13,
@@ -272,7 +272,7 @@
       "description": "Creat NPM Package that will help you to add Typing Writer Effect, which will add nice feature to your website.",
       "npmUrl": "https://www.npmjs.com/package/react-typed",
       "installCommand": "npm i react-typed",
-      "tags": ["react"]
+      "tags": ["reactjs"]
     },
     {
       "id": 14,
@@ -282,7 +282,7 @@
       "npmUrl": "https://www.npmjs.com/package/styled-components",
       "offecialUrl": "https://styled-components.com/",
       "installCommand": "npm i styled-components",
-      "tags": ["react", "css"]
+      "tags": ["reactjs", "css"]
     },
     {
       "id": 15,
@@ -292,7 +292,7 @@
       "npmUrl": "https://www.npmjs.com/package/react-chartjs-2",
       "offecialUrl": "https://react-chartjs-2.js.org/",
       "installCommand": "npm i react-chartjs-2",
-      "tags": ["charts", "javascript"]
+      "tags": ["javascript"]
     },
     {
       "id": 16,
@@ -302,7 +302,7 @@
       "npmUrl": "https://www.npmjs.com/package/howler",
       "offecialUrl": "https://howlerjs.com/",
       "installCommand": "npm i howler",
-      "tags": ["react", "audio"]
+      "tags": ["audio"]
     },
     {
       "id": 17,
@@ -330,7 +330,7 @@
       "name": "Heroicon",
       "description": "Nice website that will give you beatiful icons as svg format to implement in your application without installing libraries like Fontawesome.",
       "offecialUrl": "https://heroicons.com/",
-      "tags": ["html", "icons"]
+      "tags": ["html", "svg"]
     },
     {
       "id": 2,
@@ -338,7 +338,7 @@
       "name": "CSS Gradient Generator",
       "description": "Great Website that help you to make CSS gradients by easy way, which speed your development process.",
       "offecialUrl": "https://cssgradient.io/",
-      "tags": ["websites", "css"]
+      "tags": ["css"]
     },
     {
       "id": 3,
@@ -346,7 +346,7 @@
       "name": "Browser Frame",
       "description": "Nice website that help you to put your Images in nice frames like Chrome, Safari and Mozilla Browsers and with different themes Like Dark and Light Theme.",
       "offecialUrl": "https://browserframe.com/",
-      "tags": ["websites"]
+      "tags": ["photos"]
     },
     {
       "id": 4,
@@ -354,7 +354,7 @@
       "name": "Getwaves",
       "description": "Getwaves is great website that will give you svg wave and with different shapes to implement it in your website.",
       "offecialUrl": "https://getwaves.io/",
-      "tags": ["websites", "css"]
+      "tags": ["html", "svg"]
     },
     {
       "id": 5,
@@ -362,7 +362,7 @@
       "name": "JSON Placeholder",
       "description": "Great Website that give you fake APIs End Points to use it in your applications.",
       "offecialUrl": "https://jsonplaceholder.typicode.com/",
-      "tags": ["fetching", "api"]
+      "tags": ["json", "api"]
     }
   ],
   "programms": [
@@ -372,7 +372,7 @@
       "name": "VS Code",
       "description": "The most populer code editor that every developer should used it at least once, It have all features that speed your development process.",
       "offecialUrl": "https://code.visualstudio.com/",
-      "tags": ["programms", "vscode"]
+      "tags": ["code_editors"]
     },
     {
       "id": 1,
@@ -380,7 +380,7 @@
       "name": "Sublime Text",
       "description": "Another nice Code Editor that have nice and great features that will help you in your work as a Programmer.",
       "offecialUrl": "https://www.sublimetext.com/",
-      "tags": ["programms"]
+      "tags": ["code_editors"]
     },
     {
       "id": 2,
@@ -388,7 +388,89 @@
       "name": "Atom",
       "description": "Atom is one of my favourite code Editors that I was using it in Starting Journey, It have a lot of features that will speed your work.",
       "offecialUrl": "https://atom.io/",
-      "tags": ["programms"]
+      "tags": ["code_editors"]
+    }
+  ],
+  "chrome": [
+    {
+      "id": 0,
+      "modalId": "json-formatter",
+      "name": "JSON Formatter",
+      "description": "Nice chrome Extension that Reformate JSON string into a nice and interactive shape, Which ease dealing with data..",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/related?hl=en",
+      "tags": ["json", "formatters"]
+    },
+    {
+      "id": 1,
+      "modalId": "react-devtools",
+      "name": "React Devtools",
+      "description": "React Devtools is an awesome tool that helps you to analyze and debug react applications, like showing status, props, and all component details.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en",
+      "tags": ["reactjs"]
+    },
+    {
+      "id": 2,
+      "modalId": "fonts-ninja",
+      "name": "Fonts Ninja",
+      "description": "Great chrome extension that help you to know fonts name in any website that you want, So it will be great tool for you as a frontedn developer.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh",
+      "tags": ["html", "css", "fonts"]
+    },
+    {
+      "id": 3,
+      "modalId": "grepper",
+      "name": "Grepper",
+      "description": "Nice and very good chrome extension that help you in the development process by shoeing your problem solution in google search result, So You should try it.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/grepper/amaaokahonnfjjemodnpmeenfpnnbkco",
+      "tags": ["search"]
+    },
+    {
+      "id": 4,
+      "modalId": "redux-devtools",
+      "name": "Redux Devtools",
+      "description": "Great Extension if you use Redux, It give You all tools to debug analyze store and all reducers in your application.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en",
+      "tags": ["reactjs", "redux"]
+    },
+    {
+      "id": 5,
+      "modalId": "wappalyzer",
+      "name": "Wappalyzer",
+      "description": "As a developer sumtimes you want to know the technologies that used in a specific website, This extension solve this problem, It tell you every technologies that is used in any website.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg",
+      "tags": ["web_tools"]
+    },
+    {
+      "id": 6,
+      "modalId": "web-developer",
+      "name": "Web Developer",
+      "description": "Another Great Chrome Extension that Contains Nice tools for You as a Web developer, It let you disable javascript or CSS from your website and more tools that absolutely will help you in your development process.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm",
+      "tags": ["web_tools"]
+    },
+    {
+      "id": 7,
+      "modalId": "responsive-viewer",
+      "name": "Responsive Viewer",
+      "description": "As a frontend web developer you should test your application if it is responsive or not in chrome or firefox dev tools, these tools are limited in size but with Responsive Viewer, you can test your website on every screen that you like and you can show more one view to compare your website on different screens.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en",
+      "tags": ["html", "css"]
+    },
+    {
+      "id": 8,
+      "modalId": "lorem-generator",
+      "name": "Lorem Generator",
+      "description": "We may need random text to test a frontend website and know how it will be, Lorem Generator Extension will solve this problem, It makes you random text with any length that you want.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/lorem-ipsum-generator-def/mcdcbjjoakogbcopinefncmkcamnfkdb?hl=en",
+      "tags": ["html"]
+    },
+    {
+      "id": 9,
+      "modalId": "web-developer-checklist",
+      "name": "Web developer Checklist",
+      "description": "Great extension that helps you to make your application 100% true and ideal, It test your website and gives you what your website needs to be Ideal.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/web-developer-checklist/iahamcpedabephpcgkeikbclmaljebjp?hl=en",
+      "tags": ["web_tools"]
     }
   ]
 }

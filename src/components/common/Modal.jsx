@@ -9,20 +9,22 @@ function Modal({ modalInfo, urls, modalId, npmInstallCommand }) {
   return (
     <div
       id={modalId}
-      class="hs-modal hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto"
+      className="hs-modal hidden w-full h-full fixed top-0 left-0 z-[60] overflow-x-hidden overflow-y-auto"
     >
-      <div class="hs-modal-open:mt-7 hs-modal-open:opacity-100 hs-modal-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto min-h-[calc(100%-3.5rem)] flex items-center">
-        <div class="flex flex-col bg-white border shadow-sm rounded-xl">
-          <div class="flex justify-between items-center p-4 border-b-2 border-b-slate-200/50">
-            <h3 class="text-2xl font-bold text-slate-600">{modalInfo.title}</h3>
+      <div className="hs-modal-open:mt-7 hs-modal-open:opacity-100 hs-modal-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto min-h-[calc(100%-3.5rem)] flex items-center">
+        <div className="flex flex-col bg-white border shadow-sm rounded-xl">
+          <div className="flex items-center justify-between p-4 border-b-2 border-b-slate-200/50">
+            <h3 className="text-2xl font-bold text-slate-600">
+              {modalInfo.title}
+            </h3>
             <button
               type="button"
-              class="hs-dropdown-toggle inline-flex flex-shrink-0 justify-center items-center h-8 w-8 rounded-md text-red-500 hover:bg-red-100 duration-300 transition-all text-sm"
+              className="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-sm text-red-500 transition-all duration-300 rounded-md hs-dropdown-toggle hover:bg-red-100"
               data-hs-modal={`#${modalId}`}
             >
-              <span class="sr-only">Close</span>
+              <span className="sr-only">Close</span>
               <svg
-                class="w-3.5 h-3.5"
+                className="w-3.5 h-3.5"
                 width="8"
                 height="8"
                 viewBox="0 0 8 8"
@@ -36,12 +38,12 @@ function Modal({ modalInfo, urls, modalId, npmInstallCommand }) {
               </svg>
             </button>
           </div>
-          <div class="p-4 overflow-y-auto">
+          <div className="p-4 overflow-y-auto">
             <h3 className="mb-1 text-lg font-semibold text-slate-600">
               Description:
             </h3>
 
-            <p class="text-slate-500">{modalInfo.description}</p>
+            <p className="text-slate-500">{modalInfo.description}</p>
           </div>
           {npmInstallCommand ? (
             <div className="relative p-4">
@@ -76,22 +78,22 @@ function Modal({ modalInfo, urls, modalId, npmInstallCommand }) {
                 ) : (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
+                    className="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="#475163"
-                    stroke-width="2"
+                    strokeWidth="2"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
                     />
                   </svg>
                 )}
               </div>
               <SyntaxHighlighter
-                class="rounded-lg text-start !p-4"
+                className="rounded-lg text-start !p-4"
                 language="bash"
                 style={shadesOfPurple}
               >
@@ -99,12 +101,12 @@ function Modal({ modalInfo, urls, modalId, npmInstallCommand }) {
               </SyntaxHighlighter>
             </div>
           ) : null}
-          <div class="flex justify-end items-center gap-x-2 py-3 px-4 border-t-2 border-t-slate-200/50">
+          <div className="flex items-center justify-end px-4 py-3 border-t-2 gap-x-2 border-t-slate-200/50">
             {urls.vscodeUrl ? (
               <a
                 target="_blank"
                 href={urls.vscodeUrl}
-                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-blue-200 font-semibold text-blue-500 hover:text-white hover:bg-blue-500 hover:border-blue-500 focus:outline-none transition-all text-sm"
+                className="inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-blue-500 transition-all border-2 border-blue-200 rounded-xl hover:text-white hover:bg-blue-500 hover:border-blue-500 focus:outline-none"
                 data-hs-modal={`#${modalId}`}
               >
                 VS Code URL
@@ -113,16 +115,25 @@ function Modal({ modalInfo, urls, modalId, npmInstallCommand }) {
               <a
                 target="_blank"
                 href={urls.npmUrl}
-                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-red-200 font-semibold text-red-500 hover:text-white hover:bg-red-500 hover:border-red-500 focus:outline-none  transition-all text-sm"
+                className="inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-red-500 transition-all border-2 border-red-200 rounded-xl hover:text-white hover:bg-red-500 hover:border-red-500 focus:outline-none"
                 data-hs-modal={`#${modalId}`}
               >
                 NPM URL
+              </a>
+            ) : urls.chromeUrl ? (
+              <a
+                target="_blank"
+                href={urls.chromeUrl}
+                className="inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-green-500 transition-all border-2 border-green-200 rounded-xl hover:text-white hover:bg-green-500 hover:border-green-500 focus:outline-none"
+                data-hs-modal={`#${modalId}`}
+              >
+                Chrome URL
               </a>
             ) : null}
             {urls.offecialUrl ? (
               <a
                 target="_blank"
-                class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-xl border-2 border-violet-200 font-semibold text-violet-500 hover:text-white hover:bg-violet-500 hover:border-violet-500 focus:outline-none transition-all text-sm"
+                className="inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold transition-all border-2 rounded-xl border-violet-200 text-violet-500 hover:text-white hover:bg-violet-500 hover:border-violet-500 focus:outline-none"
                 href={urls.offecialUrl}
               >
                 Offecial Website

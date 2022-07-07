@@ -39,7 +39,7 @@
       "name": "Material Icon Theme",
       "description": "Nice Extension that give You nice and beatiful files icons, like javascript, python...etc, Material Icon Theme Extension supports Folders Icon too.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme",
-      "tags": ["vscode", "theme"]
+      "tags": ["vscode", "themes"]
     },
     {
       "id": 5,
@@ -63,7 +63,7 @@
       "name": "Tokyo Night",
       "description": "Nice Theme that I start Using in VS Code Editor, It have nice colors and other Features.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night",
-      "tags": ["vscode", "theme"]
+      "tags": ["vscode", "themes"]
     },
     {
       "id": 8,
@@ -103,7 +103,7 @@
       "name": "Headwind",
       "description": "The Big Problem in Tailwind CSS is that you may write a lot of classes and that make you to forget to oganize these classes, Headwind came to solve this problem, It ReArrange all Tailwind classes when you save the file.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=heybourn.headwind",
-      "tags": ["vscode", "tailwindcss"]
+      "tags": ["tailwindcss"]
     },
     {
       "id": 13,
@@ -111,7 +111,7 @@
       "name": "Git Lens",
       "description": "Nice Extension that give you ability to handle your repos graphically and by easy way.",
       "vscodeUrl": "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens",
-      "tags": ["vscode", "git", "github"]
+      "tags": ["git", "github"]
     }
   ],
   "packages": [
@@ -123,7 +123,7 @@
       "npmUrl": "https://www.npmjs.com/package/axios",
       "offecialUrl": "https://axios-http.com/",
       "installCommand": "npm i axios",
-      "tags": ["npm", "json"]
+      "tags": ["json", "api"]
     },
     {
       "id": 1,
@@ -133,7 +133,7 @@
       "npmUrl": "https://www.npmjs.com/package/lodash",
       "offecialUrl": "https://lodash.com/",
       "installCommand": "npm i lodash",
-      "tags": ["npm", "javascript"]
+      "tags": ["javascript"]
     },
     {
       "id": 2,
@@ -143,7 +143,7 @@
       "npmUrl": "https://www.npmjs.com/package/yargs",
       "offecialUrl": "http://yargs.js.org/",
       "installCommand": "npm i yargs",
-      "tags": ["npm", "nodejs"]
+      "tags": ["nodejs"]
     },
     {
       "id": 3,
@@ -152,7 +152,7 @@
       "description": "The Most popular Library that will help you in File upload handling, You can use it in some easy steps in You project.",
       "npmUrl": "https://www.npmjs.com/package/multer",
       "installCommand": "npm i multer",
-      "tags": ["npm", "nodejs"]
+      "tags": ["nodejs"]
     },
     {
       "id": 4,
@@ -162,7 +162,7 @@
       "npmUrl": "https://www.npmjs.com/package/telegraf",
       "offecialUrl": "https://telegraf.js.org/",
       "installCommand": "npm i telegraf",
-      "tags": ["npm", "nodejs", "telegram"]
+      "tags": ["nodejs", "telegram"]
     },
     {
       "id": 5,
@@ -171,7 +171,7 @@
       "description": "Great NPM library that you can use it in you web scraping work, It have a nice features that will give you what you need.",
       "npmUrl": "https://www.npmjs.com/package/nightmare",
       "installCommand": "npm i nightmare",
-      "tags": ["npm", "nodejs"]
+      "tags": ["nodejs", "web_scraping"]
     },
     {
       "id": 6,
@@ -180,7 +180,7 @@
       "description": "Nice Pckage that used in Authuntication and Authorization process, It used to hash password which give your application more security layer.",
       "npmUrl": "https://www.npmjs.com/package/bcrypt",
       "installCommand": "npm i bcrypt",
-      "tags": ["npm", "nodejs"]
+      "tags": ["nodejs", "security"]
     },
     {
       "id": 7,
@@ -189,7 +189,7 @@
       "description": "Great NPM Package that make short and random text to use it in your projects, You can use it in URL Shortner Application for Example.",
       "npmUrl": "https://www.npmjs.com/package/shortid",
       "installCommand": "npm i shortid",
-      "tags": ["npm", "nodejs"]
+      "tags": ["nodejs"]
     },
     {
       "id": 8,
@@ -198,7 +198,7 @@
       "description": "Nice package that you can use it in to download images from web, It have easy way to implement in your Application.",
       "npmUrl": "https://www.npmjs.com/package/image-downloader",
       "installCommand": "npm i image-downloader",
-      "tags": ["npm"]
+      "tags": ["nodejs"]
     },
     {
       "id": 9,
@@ -207,7 +207,7 @@
       "description": "One of the most popular problem in api calling from a nother origin is CORS problem, By this package you can control in origins that can make requests to your websites.",
       "npmUrl": "https://www.npmjs.com/package/cors",
       "installCommand": "npm i cors",
-      "tags": ["npm", "nodejs", "cors"]
+      "tags": ["nodejs", "cors"]
     },
     {
       "id": 10,
@@ -216,7 +216,7 @@
       "description": "One of the most popular pacjage that used to implement Authuntication and Authorization process in web Applications.",
       "npmUrl": "https://www.npmjs.com/package/jsonwebtoken",
       "installCommand": "npm i jsonwebtoken",
-      "tags": ["npm", "nodejs"]
+      "tags": ["nodejs", "login"]
     },
     {
       "id": 11,
@@ -225,7 +225,7 @@
       "description": "Nice NPM Package that help you to edit Terminal text styles like changing text background ot text colors.",
       "npmUrl": "https://www.npmjs.com/package/chalk",
       "installCommand": "npm i chalk",
-      "tags": ["npm", "nodejs", "terminal"]
+      "tags": ["nodejs", "terminal"]
     },
     {
       "id": 12,
@@ -234,7 +234,7 @@
       "description": "A library of string validators and sanitizers, It have a lot of valitor schemas like email, password, ...etc.",
       "npmUrl": "https://www.npmjs.com/package/validator",
       "installCommand": "npm i validator",
-      "tags": ["npm"]
+      "tags": ["javascript"]
     }
   ],
   "websites": [
@@ -244,7 +244,7 @@
       "name": "JSON Placeholder",
       "description": "Great Website that give you fake APIs End Points to use it in your applications.",
       "offecialUrl": "https://jsonplaceholder.typicode.com/",
-      "tags": ["fetching", "api"]
+      "tags": ["json", "api"]
     }
   ],
   "programms": [
@@ -254,31 +254,65 @@
       "name": "Roboto 3T",
       "description": "Robot 3T is an nice Programm that help You to manage MongoDB local databases on Your machine which ease DB's Manage Process.",
       "offecialUrl": "https://robomongo.org/",
-      "tags": ["programms", "mongodb"]
+      "tags": ["mongodb"]
     },
     {
-      "id": 0,
+      "id": 1,
       "modalId": "vscode",
       "name": "VS Code",
       "description": "The most populer code editor that every developer should used it at least once, It have all features that speed your development process.",
       "offecialUrl": "https://code.visualstudio.com/",
-      "tags": ["programms", "vscode"]
+      "tags": ["code_editors"]
     },
     {
-      "id": 1,
+      "id": 2,
       "modalId": "sublime-text",
       "name": "Sublime Text",
       "description": "Another nice Code Editor that have nice and great features that will help you in your work as a Programmer.",
       "offecialUrl": "https://www.sublimetext.com/",
-      "tags": ["programms"]
+      "tags": ["code_editors"]
     },
     {
-      "id": 2,
+      "id": 3,
       "modalId": "atom",
       "name": "Atom",
       "description": "Atom is one of my favourite code Editors that I was using it in Starting Journey, It have a lot of features that will speed your work.",
       "offecialUrl": "https://atom.io/",
-      "tags": ["programms"]
+      "tags": ["code_editors"]
+    }
+  ],
+  "chrome": [
+    {
+      "id": 0,
+      "modalId": "json-formatter",
+      "name": "JSON Formatter",
+      "description": "Nice chrome Extension that Reformate JSON string into a nice and interactive shape, Which ease dealing with data..",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa/related?hl=en",
+      "tags": ["json", "formatters"]
+    },
+    {
+      "id": 1,
+      "modalId": "grepper",
+      "name": "Grepper",
+      "description": "Nice and very good chrome extension that help you in the development process by shoeing your problem solution in google search result, So You should try it.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/grepper/amaaokahonnfjjemodnpmeenfpnnbkco",
+      "tags": ["search"]
+    },
+    {
+      "id": 2,
+      "modalId": "wappalyzer",
+      "name": "Wappalyzer",
+      "description": "As a developer sumtimes you want to know the technologies that used in a specific website, This extension solve this problem, It tell you every technologies that is used in any website.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg",
+      "tags": ["web_tools"]
+    },
+    {
+      "id": 3,
+      "modalId": "lorem-generator",
+      "name": "Lorem Generator",
+      "description": "We may need random text to test a frontend website and know how it will be, Lorem Generator Extension will solve this problem, It makes you random text with any length that you want.",
+      "chromeUrl": "https://chrome.google.com/webstore/detail/lorem-ipsum-generator-def/mcdcbjjoakogbcopinefncmkcamnfkdb?hl=en",
+      "tags": ["html", "text"]
     }
   ]
 }

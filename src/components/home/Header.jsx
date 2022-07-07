@@ -10,10 +10,11 @@ function Header() {
           <div className="order-2 max-w-xl mx-auto text-center break-words lg:order-1 lg:text-start lg:max-w-screen-xl">
             <div className="h-full mb-16 lg:max-w-lg lg:mb-0">
               <div className="max-w-xl mb-6">
-                <div>
-                  <span className="inline-flex items-center mb-1 gap-1.5 py-1.5 px-3 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
-                    Free!
+                <div className="flex items-center justify-start gap-2">
+                  <span className="shadow inline-flex items-center mb-1 gap-1.5 py-1.5 px-3 rounded-lg text-sm  bg-yellow-300 text-gray-700 font-bold">
+                    New in v1.1.0
                   </span>
+                  <p className="text-slate-600">Chrome Extensions, Tags</p>
                 </div>
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-slate-700 sm:text-5xl xl:text-7xl sm:leading-none">
                   Speed Your Development Process Now.

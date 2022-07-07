@@ -9,6 +9,7 @@ import Sidebar from "../common/Sidebar";
 import Card from "../common/Card";
 import frontendDB from "../../db/frontend.json";
 import NotFound from "../error/NotFound";
+import Chrome from "../common/Chrome";
 
 //* Frontend JSX
 function Frontend() {
@@ -33,6 +34,7 @@ function Frontend() {
           path="programms"
           element={<Programms programms={frontendDB.programms} />}
         />
+        <Route path="chrome" element={<Chrome chrome={frontendDB.chrome} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

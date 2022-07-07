@@ -9,12 +9,12 @@ function Sidebar({ field }) {
       <div className="lg:sticky lg:top-14">
         <button
           type="button"
-          class="p-3 z-[10] animate-arrow fixed lg:hidden top-1/2 left-2 rounded-full duration-500 hover:bg-violet-200/50"
+          className="p-3 z-[10] animate-arrow fixed lg:hidden top-1/2 left-2 rounded-full duration-500 hover:bg-violet-200/50"
           data-hs-sidebar="#docs-sidebar"
           aria-controls="docs-sidebar"
           aria-label="Toggle navigation"
         >
-          <span class="sr-only">Toggle Navigation</span>
+          <span className="sr-only">Toggle Navigation</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-10 h-10"
@@ -33,14 +33,14 @@ function Sidebar({ field }) {
 
         <div
           id="docs-sidebar"
-          class="pt-12 bg-violet-500/90 lg:bg-white  h-full fixed lg:static z-[60] hs-sidebar hs-sidebar-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden lg:block top-0 left-0  lg:z-[10] w-64 bg-white  lg:pt-7 pb-10 overflow-y-auto scrollbar-y lg:translate-x-0 lg:right-auto lg:bottom-0 "
+          className="pt-12 bg-violet-500/90 lg:bg-white  h-full fixed lg:static z-[60] hs-sidebar hs-sidebar-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden lg:block top-0 left-0  lg:z-[10] w-64 bg-white  lg:pt-7 pb-10 overflow-y-auto scrollbar-y lg:translate-x-0 lg:right-auto lg:bottom-0 "
         >
           <button
             data-hs-sidebar="#docs-sidebar"
             className="absolute p-2 text-white duration-300 rounded-lg top-4 right-4 hover:bg-violet-400 "
           >
             <svg
-              class="w-3.5 h-3.5"
+              className="w-3.5 h-3.5"
               width="8"
               height="8"
               viewBox="0 0 8 8"
@@ -53,11 +53,11 @@ function Sidebar({ field }) {
               />
             </svg>
           </button>
-          <nav class="p-6 w-full flex flex-col flex-wrap">
-            <ul class="font-mitr  sidebar space-y-1.5 flex flex-col gap-2 justify-center items-start">
+          <nav className="flex flex-col flex-wrap w-full p-6">
+            <ul className="font-mitr  sidebar space-y-1.5 flex flex-col gap-2 justify-center items-start">
               <li>
                 <NavLink
-                  class={
+                  className={
                     "vscode-link flex items-center gap-x-3 bg-gray-100 text-sm text-slate-700 rounded-md hover:bg-gray-100 vscode-link"
                   }
                   to={`/${field}/vscode`}
@@ -67,20 +67,22 @@ function Sidebar({ field }) {
                       xmlns="http://www.w3.org/2000/svg"
                       className="w-6 h-6 fill-white lg:fill-violet-500 icon icon-tabler icon-tabler-brand-visual-studio"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M4 8l2 -1l10 13l4 -2v-12l-4 -2l-10 13l-2 -1z" />
                     </svg>
                   </div>
-                  <span class="ml-3">VS Code Tools</span>
+                  <span className="flex items-center justify-start ">
+                    VS Code Tools
+                  </span>
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  class="packages-link flex items-center gap-x-3 text-sm text-slate-700 rounded-md hover:bg-gray-100"
+                  className="flex items-center text-sm rounded-md packages-link gap-x-3 text-slate-700 hover:bg-gray-100"
                   to={`/${field}/packages`}
                 >
                   <div>
@@ -99,12 +101,14 @@ function Sidebar({ field }) {
                       />
                     </svg>
                   </div>
-                  <span class="ml-3">{"Packages & Libs"}</span>
+                  <span className="flex items-center justify-start ">
+                    {"Packages & Libs"}
+                  </span>
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  class="websites-link flex items-center gap-x-3 text-sm text-slate-700 rounded-md hover:bg-gray-100"
+                  className="flex items-center text-sm rounded-md websites-link gap-x-3 text-slate-700 hover:bg-gray-100"
                   to={`/${field}/websites`}
                 >
                   <div className="w-5 h-5">
@@ -121,26 +125,28 @@ function Sidebar({ field }) {
                       />
                     </svg>
                   </div>
-                  <span class="ml-3">Websites</span>
+                  <span className="flex items-center justify-start ">
+                    Websites
+                  </span>
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  class="programms-link flex items-center gap-x-3 text-sm text-slate-700 rounded-md hover:bg-gray-100"
+                  className="flex items-center text-sm rounded-md programms-link gap-x-3 text-slate-700 hover:bg-gray-100"
                   to={`/${field}/programms`}
                 >
                   <div>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      class="lg:stroke-violet-500 stroke-white w-6 h-6 icon icon-tabler icon-tabler-file-code-2"
+                      className="w-6 h-6 lg:stroke-violet-500 stroke-white icon icon-tabler icon-tabler-file-code-2"
                       width="44"
                       height="44"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="#2c3e50"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M10 12h-1v5h1" />
@@ -149,7 +155,56 @@ function Sidebar({ field }) {
                       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
                     </svg>
                   </div>
-                  <span class="ml-3">Programms</span>
+                  <span className="flex items-center justify-start ">
+                    Programms
+                  </span>
+                </NavLink>
+              </li>
+              <li className="relative !mt-2">
+                <span className="absolute -top-3 -right-5 inline-flex items-center gap-1.5 py-1 px-2.5 border-[2px] lg:border-[3px] border-white rounded-full text-[12px] font-medium  bg-yellow-200 text-yellow-800">
+                  New!
+                </span>
+
+                <NavLink
+                  className="flex items-center text-sm rounded-md programms-link gap-x-3 text-slate-700 hover:bg-gray-100"
+                  to={`/${field}/chrome`}
+                >
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-6 h-6 lg:stroke-violet-500 stroke-white icon icon-tabler icon-tabler-file-code-2"
+                      width="44"
+                      height="44"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="#2c3e50"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <circle cx="12" cy="12" r="9" />
+                      <circle cx="12" cy="12" r="3" />
+                      <line x1="12" y1="9" x2="20.4" y2="9" />
+                      <line
+                        x1="12"
+                        y1="9"
+                        x2="20.4"
+                        y2="9"
+                        transform="rotate(120 12 12)"
+                      />
+                      <line
+                        x1="12"
+                        y1="9"
+                        x2="20.4"
+                        y2="9"
+                        transform="rotate(240 12 12)"
+                      />
+                    </svg>
+                  </div>
+                  <span className="flex items-center justify-start whitespace-nowrap">
+                    Chrome Extensions
+                  </span>
                 </NavLink>
               </li>
             </ul>
