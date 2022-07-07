@@ -99,7 +99,7 @@ function NavBar() {
                 <button
                   id="hs-dropdown-hover-event"
                   type="button"
-                  className="inline-flex items-center justify-center w-full gap-2 p-3 text-sm font-semibold align-middle transition-all rounded-md shadow-sm rounded-xl hs-dropdown-toggle bg-violet-500/80 hover:bg-violet-400/80"
+                  className="inline-flex items-center justify-center w-full gap-2 p-3 text-sm font-semibold align-middle transition-all rounded-md shadow-sm rounded-xl hs-dropdown-toggle hover:bg-violet-400/80"
                 >
                   Actions
                   <svg
