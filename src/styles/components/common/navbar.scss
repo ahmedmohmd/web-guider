@@ -7,4 +7,21 @@
   .active:hover {
     background-color: #fff !important;
   }
+
+  .hs-dropdown.open .hs-dropdown-open\:opacity-100 {
+    margin-top: 10px !important;
+  }
+
+  @media (max-width: 763px) {
+    .hs-dropdown.open .hs-dropdown-open\:opacity-100 {
+      margin-top: 20px !important;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .hs-dropdown.open .hs-dropdown-open\:opacity-100 {
+      position: relative !important;
+      transform: translate((0px, 0px)) !important;
+    }
+  }
 }

@@ -245,6 +245,14 @@
       "description": "Great Website that give you fake APIs End Points to use it in your applications.",
       "offecialUrl": "https://jsonplaceholder.typicode.com/",
       "tags": ["json", "api"]
+    },
+    {
+      "id": 1,
+      "modalId": "jest-cheat-sheet",
+      "name": "JEST Cheat Sheet",
+      "description": "Nice website that give you some of jest topics and methods that you can revision jest funcions and methods from it..",
+      "offecialUrl": "https://devhints.io/jest",
+      "tags": ["jest"]
     }
   ],
   "programms": [

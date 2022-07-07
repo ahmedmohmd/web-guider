@@ -16,7 +16,7 @@ function Packages({ packages }) {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3">
+        <div className="grid grid-cols-1 gap-5 px-4 py-4 sm:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3">
           {packages.map(
             ({
               name,

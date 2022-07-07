@@ -92,9 +92,57 @@ function NavBar() {
               >
                 About
               </NavLink> */}
-              <div className="flex flex-col items-center justify-center w-full gap-2 hs-mega-menu lg:w-auto">
+              <div
+                className="relative flex flex-col items-center justify-center gap-2 hs-dropdown lg:flex-row"
+                data-hs-dropdown-trigger="hover"
+              >
                 <button
-                  id="hs-mega-menu-basic-dr"
+                  id="hs-dropdown-hover-event"
+                  type="button"
+                  className="inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold align-middle transition-all rounded-md shadow-sm hs-dropdown-toggle bg-violet-500/80 hover:bg-violet-400/80"
+                >
+                  Actions
+                  <svg
+                    className="hs-dropdown-open:rotate-180 w-2.5 h-2.5 text-white"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                    />
+                  </svg>
+                </button>
+
+                <div
+                  className="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 flex justify-center items-center flex-col hs-mega-menu-content hs-mega-menu-open:opacity-100 opacity-0 top-full translate-y-1 gap-3 hidden z-10 rounded-lg before:absolute  before:-top-5 before:left-0 before:w-full before:h-5 w-full bg-violet-400/60 sm:bg-violet-500/80 p-3 sm:w-48 sm:transition-all sm:absolute sm:shadow-md sm:duration-300"
+                  aria-labelledby="hs-dropdown-hover-event"
+                >
+                  <NavLink
+                    className="w-full p-3 duration-300 rounded-xl hover:bg-violet-400/80"
+                    to={"/frontend"}
+                  >
+                    Frontend
+                  </NavLink>
+                  <NavLink
+                    className="w-full p-3 duration-300 rounded-xl hover:bg-violet-400/80"
+                    to={"/backend"}
+                  >
+                    Backend
+                  </NavLink>
+                </div>
+              </div>
+              {/* <div
+                data-hs-dropdown-trigger="hover"
+                className="flex flex-col items-center justify-center w-full gap-2 hs-mega-menu lg:w-auto"
+              >
+                <button
+                  id="hs-dropdown-hover-event"
                   type="button"
                   className="flex items-center justify-center gap-1 font-semibold text-center text-white text-md hs-mega-menu-toggle"
                 >
@@ -119,7 +167,7 @@ function NavBar() {
                     Backend
                   </NavLink>
                 </div>
-              </div>
+              </div> */}
 
               <a
                 href="https://github.com/ahmedmohmd/web-guider/tree/main"
