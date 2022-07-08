@@ -19,7 +19,7 @@
         svg {
           fill: #fff;
 
-          @media (max-width: 1024px) {
+          @media (max-width: 1023px) {
             fill: #9564f7;
           }
         }
@@ -29,7 +29,7 @@
           color: #fff;
         }
 
-        @media (max-width: 1024px) {
+        @media (max-width: 1023px) {
           background-color: #fff;
           color: #8c60f6 !important;
         }
@@ -39,7 +39,7 @@
         background-color: #ede9fe;
       }
 
-      @media (max-width: 1024px) {
+      @media (max-width: 1023px) {
         color: #fff;
         background: transparent;
 
@@ -59,7 +59,7 @@
       }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1023px) {
       &:nth-child(4),
       &:nth-child(2) {
         a {
