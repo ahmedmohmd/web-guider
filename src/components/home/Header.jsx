@@ -12,7 +12,7 @@ function Header() {
               <div className="max-w-xl mb-6">
                 <div className="flex items-center justify-start gap-2">
                   <span className="shadow inline-flex items-center mb-1 gap-1.5 py-1.5 px-3 rounded-lg text-sm  bg-yellow-300 text-gray-700 font-bold">
-                    New in v1.1.0
+                    New in v2.0
                   </span>
                   <p className="text-slate-600">Chrome Extensions, Tags</p>
                 </div>
