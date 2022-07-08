@@ -101,7 +101,7 @@ function NavBar() {
                   type="button"
                   className="inline-flex items-center justify-center w-full gap-2 p-3 text-sm font-semibold align-middle transition-all rounded-md shadow-sm rounded-xl hs-dropdown-toggle hover:bg-violet-400/50"
                 >
-                  Tracks
+                  Stacks
                   <svg
                     className="hs-dropdown-open:rotate-180 w-2.5 h-2.5 text-white"
                     width="16"

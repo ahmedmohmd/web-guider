@@ -207,6 +207,53 @@ function Sidebar({ field }) {
                   </span>
                 </NavLink>
               </li>
+              <li className="relative !mt-2">
+                <span className="absolute -top-3 -right-5 inline-flex items-center gap-1.5 py-1 px-2.5 border-[2px] lg:border-[3px] border-white rounded-full text-[12px] font-medium  bg-yellow-200 text-yellow-800">
+                  New!
+                </span>
+
+                <NavLink
+                  className="flex items-center text-sm rounded-md programms-link gap-x-3 text-slate-700 hover:bg-gray-100"
+                  to={`/${field}/roadmap`}
+                >
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-6 h-6 lg:stroke-violet-500 stroke-white icon icon-tabler icon-tabler-file-code-2"
+                      width="44"
+                      height="44"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="#2c3e50"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <circle cx="12" cy="12" r="9" />
+                      <circle cx="12" cy="12" r="3" />
+                      <line x1="12" y1="9" x2="20.4" y2="9" />
+                      <line
+                        x1="12"
+                        y1="9"
+                        x2="20.4"
+                        y2="9"
+                        transform="rotate(120 12 12)"
+                      />
+                      <line
+                        x1="12"
+                        y1="9"
+                        x2="20.4"
+                        y2="9"
+                        transform="rotate(240 12 12)"
+                      />
+                    </svg>
+                  </div>
+                  <span className="flex items-center justify-start whitespace-nowrap">
+                    Roadmap
+                  </span>
+                </NavLink>
+              </li>
             </ul>
           </nav>
         </div>

@@ -239,7 +239,7 @@
     },
     {
       "id": 10,
-      "modalId": "qrcode.react",
+      "modalId": "qrcode-react",
       "name": "QR Code React",
       "description": "Nice Package that used to Create QR Code, It's usage is very simple but have a great benefit.",
       "npmUrl": "https://www.npmjs.com/package/qrcode.react",
@@ -313,6 +313,16 @@
       "offecialUrl": "https://lodash.com/",
       "installCommand": "npm i lodash",
       "tags": ["javascript"]
+    },
+    {
+      "id": 18,
+      "modalId": "owl-carousel",
+      "name": "Owl Carousel",
+      "description": "Nice Library that contains Great and responsive Carousels that you can use it in your website.",
+      "npmUrl": "https://www.npmjs.com/package/owl.carousel",
+      "offecialUrl": "http://owlcarousel2.github.io/OwlCarousel2/",
+      "installCommand": "npm i owl.carousel",
+      "tags": ["jquery", "css"]
     }
   ],
   "websites": [

@@ -9,6 +9,7 @@ import Sidebar from "../common/Sidebar";
 import backendDB from "../../db/backend.json";
 import NotFound from "../error/NotFound";
 import Chrome from "../common/Chrome";
+import Roadmap from "../common/Roadmap";
 
 //* Backend JSX
 function Backend() {
@@ -25,7 +26,7 @@ function Backend() {
           path="packages"
           element={<Packages packages={backendDB.packages} />}
         />
-      <Route
+        <Route
           path="websites"
           element={<Websites websites={backendDB.websites} />}
         />
@@ -34,6 +35,15 @@ function Backend() {
           element={<Programms programms={backendDB.programms} />}
         />
         <Route path="chrome" element={<Chrome chrome={backendDB.chrome} />} />
+        <Route
+          path="roadmap"
+          element={
+            <Roadmap
+              roadmap={"/images/backend.svg"}
+              downloadLink={"/backend.pdf"}
+            />
+          }
+        />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

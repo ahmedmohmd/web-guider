@@ -12,9 +12,11 @@ function Header() {
               <div className="max-w-xl mb-6">
                 <div className="flex items-center justify-start gap-2">
                   <span className="shadow inline-flex items-center mb-1 gap-1.5 py-1.5 px-3 rounded-lg text-sm  bg-yellow-300 text-gray-700 font-bold">
-                    New in v2.0
+                    New in v3.0
                   </span>
-                  <p className="text-slate-600">Chrome Extensions, Tags</p>
+                  <p className="text-slate-600">
+                    Chrome Extensions, Tags, Roadmaps
+                  </p>
                 </div>
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-slate-700 sm:text-5xl xl:text-7xl sm:leading-none">
                   Speed Your Development Process Now.
@@ -29,7 +31,7 @@ function Header() {
                   href="#get-started"
                   className="px-5 py-3 text-sm font-medium text-center text-white duration-500 bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 rounded-xl lg:rounded-2xl lg:text-md lg:px-7 lg:py-4"
                 >
-                  Quick Start
+                  Get Started
                 </a>
               </div>
             </div>

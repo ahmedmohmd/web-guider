@@ -22,12 +22,12 @@ function GetStarted() {
                 }
               ></span>
               <span className="z-20 mb-3 text-2xl font-bold md:text-3xl lg:text-4xl xl:text-5xl lg:font-extrabold text-slate-600">
-                Choose Track
+                Choose Stack
               </span>
             </div>
           </div>
           <p className="text-slate-500">
-            Choose Your Track if You are{" "}
+            Choose Your Stack if You are{" "}
             <span className="mx-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">
               Frondend
             </span>
@@ -35,7 +35,7 @@ function GetStarted() {
             <span className="mx-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full text-sm font-medium bg-violet-100 text-violet-800">
               Backend
             </span>
-            web Developer.
+            Web Developer.
           </p>
         </div>
         <div className="flex items-center justify-center gap-5 px-4 lg:gap-20">

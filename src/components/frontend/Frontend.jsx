@@ -10,6 +10,7 @@ import Card from "../common/Card";
 import frontendDB from "../../db/frontend.json";
 import NotFound from "../error/NotFound";
 import Chrome from "../common/Chrome";
+import Roadmap from "../common/Roadmap";
 
 //* Frontend JSX
 function Frontend() {
@@ -35,6 +36,15 @@ function Frontend() {
           element={<Programms programms={frontendDB.programms} />}
         />
         <Route path="chrome" element={<Chrome chrome={frontendDB.chrome} />} />
+        <Route
+          path="roadmap"
+          element={
+            <Roadmap
+              roadmap={"/images/frontend.svg"}
+              downloadLink={"/frontend.pdf"}
+            />
+          }
+        />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
