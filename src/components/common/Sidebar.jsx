@@ -161,7 +161,7 @@ function Sidebar({ field }) {
                 </NavLink>
               </li>
               <li className="relative !mt-2">
-                <span className="absolute -top-3 -right-5 inline-flex items-center gap-1.5 py-1 px-2.5 border-[2px] lg:border-[3px] border-white rounded-full text-[12px] font-medium  bg-yellow-200 text-yellow-800">
+                <span className="absolute -top-3 -right-5 inline-flex items-center gap-1.5 py-1 px-2.5 shadow-sm rounded-full text-[12px] font-medium  bg-yellow-300 text-slate-700">
                   New!
                 </span>
 
@@ -208,7 +208,7 @@ function Sidebar({ field }) {
                 </NavLink>
               </li>
               <li className="relative !mt-2">
-                <span className="absolute -top-3 -right-5 inline-flex items-center gap-1.5 py-1 px-2.5 border-[2px] lg:border-[3px] border-white rounded-full text-[12px] font-medium  bg-yellow-200 text-yellow-800">
+                <span className="absolute -top-3 -right-5 inline-flex items-center gap-1.5 py-1 px-2.5 shadow-sm rounded-full text-[12px] font-medium  bg-yellow-300 text-slate-700">
                   New!
                 </span>
 
@@ -223,30 +223,18 @@ function Sidebar({ field }) {
                       width="44"
                       height="44"
                       viewBox="0 0 24 24"
-                      strokeWidth="1.5"
+                      stroke-width="1.5"
                       stroke="#2c3e50"
                       fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                      <circle cx="12" cy="12" r="9" />
-                      <circle cx="12" cy="12" r="3" />
-                      <line x1="12" y1="9" x2="20.4" y2="9" />
-                      <line
-                        x1="12"
-                        y1="9"
-                        x2="20.4"
-                        y2="9"
-                        transform="rotate(120 12 12)"
-                      />
-                      <line
-                        x1="12"
-                        y1="9"
-                        x2="20.4"
-                        y2="9"
-                        transform="rotate(240 12 12)"
-                      />
+                      <rect x="3" y="15" width="6" height="6" rx="2" />
+                      <rect x="15" y="15" width="6" height="6" rx="2" />
+                      <rect x="9" y="3" width="6" height="6" rx="2" />
+                      <path d="M6 15v-1a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v1" />
+                      <line x1="12" y1="9" x2="12" y2="12" />
                     </svg>
                   </div>
                   <span className="flex items-center justify-start whitespace-nowrap">

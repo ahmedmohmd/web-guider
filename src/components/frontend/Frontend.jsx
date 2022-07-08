@@ -19,7 +19,7 @@ function Frontend() {
   }, []);
 
   return (
-    <div className="flex items-stretch justify-center min-h-[calc(100vh-75px)] gap-1 top">
+    <div className="flex items-stretch justify-center min-h-[calc(100vh-75px)]  top">
       <Sidebar field={"frontend"} />
       <Routes>
         <Route path="vscode" element={<Vscode vscode={frontendDB.vscode} />} />

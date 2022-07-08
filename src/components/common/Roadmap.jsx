@@ -4,13 +4,13 @@ import Card from "./Card";
 //* Roadmap JSX
 function Roadmap({ roadmap, downloadLink }) {
   return (
-    <div className="container relative flex flex-col items-center justify-center gap-5 py-5 pt-10 mx-auto">
+    <div className="container relative flex flex-col items-center justify-center gap-5 p-2 py-5 pt-6 mx-auto lg:pt-10">
       <div className="inline-flex items-center justify-center w-full">
         <a
           href={downloadLink}
           download
           alt="download roadmap"
-          class="text-slate-700 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg sm:text-sm text-xs sm:px-5 sm:py-2.5 px-2 py-2 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50"
+          class="font-semibold text-slate-700 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 rounded-lg sm:text-sm text-xs sm:px-5 sm:py-2.5 px-2 py-2 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,11 @@ function Roadmap({ roadmap, downloadLink }) {
         </a>
       </div>
 
-      <img src={roadmap} alt="" />
+      <img
+        className="rounded-3xl"
+        src={roadmap}
+        alt="Frontend or Backend Roadmap"
+      />
     </div>
   );
 }

@@ -11,7 +11,7 @@ function Chrome({ chrome }) {
             <img
               className="max-w-full max-h-full "
               src="/images/coming-soon-image.svg"
-              alt=""
+              alt="Frontend or Backend Roadmap"
             />
           </div>
         </div>
