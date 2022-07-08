@@ -15,7 +15,7 @@ function Header() {
                     New in v3.0
                   </span>
                   <p className="text-slate-600">
-                    Chrome Extensions, Tags, Roadmaps
+                    Chrome Extensions, Tags and Roadmaps.
                   </p>
                 </div>
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-slate-700 sm:text-5xl xl:text-7xl sm:leading-none">
