@@ -323,6 +323,26 @@
       "offecialUrl": "http://owlcarousel2.github.io/OwlCarousel2/",
       "installCommand": "npm i owl.carousel",
       "tags": ["jquery", "css"]
+    },
+    {
+      "id": 19,
+      "modalId": "react-spring",
+      "name": "React Spring",
+      "description": "react-spring is a spring-physics based animation library that should cover most of your UI related animation needs. It gives you tools flexible enough to confidently cast your ideas into moving interfaces.",
+      "npmUrl": "https://www.npmjs.com/package/react-spring",
+      "offecialUrl": "https://react-spring.dev/",
+      "installCommand": "npm i react-spring",
+      "tags": ["reactjs", "animation"]
+    },
+    {
+      "id": 20,
+      "modalId": "react-spinners",
+      "name": "React Spinners",
+      "description": "Great Library that give you nice loading animations templates. Just copy it and paste it in your project.",
+      "npmUrl": "https://www.npmjs.com/package/react-spinners",
+      "offecialUrl": "https://www.davidhu.io/react-spinners/",
+      "installCommand": "npm i react-spinners",
+      "tags": ["reactjs", "animation"]
     }
   ],
   "websites": [
