@@ -343,6 +343,15 @@
       "offecialUrl": "https://www.davidhu.io/react-spinners/",
       "installCommand": "npm i react-spinners",
       "tags": ["reactjs", "animation"]
+    },
+    {
+      "id": 21,
+      "modalId": "clsx",
+      "name": "clsx",
+      "description": "Great Library that Help You to organaize your classes expecialy if you use tailwid css.",
+      "npmUrl": "https://www.npmjs.com/package/clsx",
+      "installCommand": "npm i clsx",
+      "tags": ["css", "tailwindcss"]
     }
   ],
   "websites": [
@@ -401,6 +410,14 @@
       "description": "Nice website that give you some of jest topics and methods that you can revision jest funcions and methods from it..",
       "offecialUrl": "https://devhints.io/jest",
       "tags": ["jest"]
+    },
+    {
+      "id": 7,
+      "modalId": "css-gg",
+      "name": "CSS.GG",
+      "description": "Nice website that give you above 700 icons as css, html and xml without download it, just copy and paste it.",
+      "offecialUrl": "https://css.gg/",
+      "tags": ["icons"]
     }
   ],
   "programms": [
