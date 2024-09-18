@@ -1,51 +1,65 @@
 # Web Guider
 
-This is the Source Code [**Web Guider**](https://web-guider.vercel.app/) Website.
+## 🚀 Brief Overview
 
----
+Web Guider is a comprehensive platform offering curated packages, libraries, and VS Code extensions designed to boost productivity for frontend and backend developers. Whether you're building complex applications or just starting out, Web Guider simplifies your workflow, helping you discover tools that accelerate development, enhance code quality, and streamline project management. Perfect for developers seeking to optimize their setup and elevate their coding experience.
 
-# Discreption
+## ✨ Key Features
 
-[**Web Guider**] Website is an Website that contain some of packages and libs and VS Code Extensions that help you as a frontend or backend developer and speed your developemtn process.
+1. Responsive Design
+2. Awesome Design thanks to **tailwind** and **Preline UI**.
+3. Nice perfomance.
 
----
+## 🛠️ Tech Stack
 
-# App Features
-
-- Reponsive
-- Nice Design with Tailwind Framework
-- Speed & Good Performance
-- A lot of Extensions and Packages
-
----
-
-# Languages & Technologies
-
-### Lauages That used in this Web App:
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=ar"><img src="https://img.icons8.com/color/48/000000/css3.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://www.javascript.com/"><img src="https://img.icons8.com/color/48/000000/javascript--v2.png" width="48" height="48"/></a>
-</div>
-
-### Technolohies that used in this App:
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <a href="https://reactjs.org/"><img src="https://cdn-icons-png.flaticon.com/512/3334/3334886.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://tailwindcss.com/"><img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" width="48" height="48"/></a>
-  <a href="https://sass-lang.com/"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968358.png" width="48" height="48"/></a>
-</div>
-
-### Other Libs & Packages:
-
+- React.js
+- TailwindCSS
+- Sass
 - [**Preline UI**](https://preline.co/docs/index.html)
 - [**Raact Router**](https://reactrouter.com/)
 - [**React Icons**](https://react-icons.github.io/react-icons/)
 - [**React Syntax Highlighter**](https://www.npmjs.com/package/react-syntax-highlighter)
 
----
+## 🔧 Install Instructions
 
-# Website Screenshot
+1. Clone the repo
+
+```bash
+    git clone https://github.com/ahmedmohmd/web-guider.git
+
+```
+
+2. Install dependencies
+
+```bash
+  yarn install
+
+```
+
+3. Run the App
+
+```bash
+  yarn run dev
+
+```
+
+## 🖥️ Usage
+
+1. You can get all most powerfull tools that will boost you productivity as a `backend` or `frontend` developer.
+2. You can different:
+
+- VS Code extenstions
+- NPM Packages
+- Awesome Roadmaps
+- Great Softwares
+
+4. You can get all instructions to install these tools.
+
+## 👀 Demo
+
+[Web Guider](https://web-guider.vercel.app/)
+
+## 🖼️ Application's Screeshots
+
 
 ![Web Guider](https://github.com/ahmedmohmd/web-guider/blob/main/app-screenshot.png?raw=true)
